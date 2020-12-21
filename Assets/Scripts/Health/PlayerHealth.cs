@@ -63,10 +63,22 @@ public class PlayerHealth : MonoBehaviour
         UpdateUI();
     }
 
-
+    //Update UI
     void UpdateUI()
     {
         shieldSlider.value = curShield / maxShield;
         healthSlider.value = curHealth / maxHealth;
+    }
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if(col.tag == "HealthPickup")
+        {
+            HealthPickup healthPickup = col.GetComponent<HealthPickup>();
+            ModifyHealth(healthPickup.healthBoost);
+            ModifyHealth(healthPickup.shieldBoost);
+
+            Destroy(col.gameObject);
+        }
     }
 }
