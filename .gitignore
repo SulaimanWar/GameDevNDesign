@@ -1,0 +1,13 @@
+Temp/UnityLockfile
+.DS_Store
+Builds
+Library
+Temp
+Logs
+obj
+*.csproj
+*.pidb
+*.unityproj
+*.sln
+*.userprefs
+.vs
