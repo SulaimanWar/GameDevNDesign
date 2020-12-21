@@ -1,22 +1,15 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public float maxHealth;
-    public float maxShield;
+    public float maxHealth = 100f;
+    public float maxShield = 100f;
     float curHealth = 100f;
     float curShield = 100f;
 
-
-
-    
-    //It also makes sure we do not exceed the minimum and maximum health
-    void CheckHealth()
-    {
-
-    }
+    [SerializeField] Slider shieldSlider;
+    [SerializeField] Slider healthSlider;
 
     void Die()
     {
@@ -33,10 +26,20 @@ public class PlayerHealth : MonoBehaviour
     {
         curHealth += modifyAmount;
 
-        if(curHealth < 1)
+        //This just checks to see if we should be dead
+        if (curHealth < 1)
         {
-            //This just checks to see if we should be dead
+            Die();
         }
+
+        //Make sure we do not exceed the maximum health
+        if (curHealth > maxHealth)
+        {
+            curHealth = maxHealth;
+        }
+
+        //Update UI
+        UpdateUI();
     }
 
     //This is a public function to update our shield
@@ -44,5 +47,26 @@ public class PlayerHealth : MonoBehaviour
     public void ModifyShield(int modifyAmount)
     {
         curShield += modifyAmount;
+
+        //Make sure we do not exceed the minimum and maximum shield
+        if (curShield <= 0f)
+        {
+            curShield = 0;
+        }
+
+        if (curShield > maxShield)
+        {
+            curShield = maxShield;
+        }
+
+        //Update UI
+        UpdateUI();
+    }
+
+
+    void UpdateUI()
+    {
+        shieldSlider.value = curShield / maxShield;
+        healthSlider.value = curHealth / maxHealth;
     }
 }
