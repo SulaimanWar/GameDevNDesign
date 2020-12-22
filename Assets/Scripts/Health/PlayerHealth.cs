@@ -3,13 +3,20 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public float maxHealth = 100f;
-    public float maxShield = 100f;
-    float curHealth = 100f;
-    float curShield = 100f;
+    public int maxHealth = 100;
+    public int maxShield = 100;
+    int curHealth = 100;
+    int curShield = 100;
 
     [SerializeField] Slider shieldSlider;
     [SerializeField] Slider healthSlider;
+
+
+    private void Start()
+    {
+        UpdateUI();
+    }
+
 
     void Die()
     {
@@ -20,7 +27,7 @@ public class PlayerHealth : MonoBehaviour
 
 
 
-    //This is a public function to update our health
+    //This is a public function to update our health amount
     //Maybe by drinking potion or getting attacked
     public void ModifyHealth(int modifyAmount)
     {
@@ -42,10 +49,16 @@ public class PlayerHealth : MonoBehaviour
         UpdateUI();
     }
 
-    //This is a public function to update our shield
+    //This is a public function to update our shield amount
     //Maybe by drinking potion or getting attacked
     public void ModifyShield(int modifyAmount)
     {
+        //If damage received is more than the shield amount, transfer that damage into health
+        if(modifyAmount > curShield && modifyAmount < 0)
+        {
+            ModifyHealth(curShield - modifyAmount);
+        }
+
         curShield += modifyAmount;
 
         //Make sure we do not exceed the minimum and maximum shield
@@ -66,19 +79,42 @@ public class PlayerHealth : MonoBehaviour
     //Update UI
     void UpdateUI()
     {
-        shieldSlider.value = curShield / maxShield;
-        healthSlider.value = curHealth / maxHealth;
+        shieldSlider.value = (float)curShield / maxShield;
+        healthSlider.value = (float)curHealth / maxHealth;
     }
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if(col.tag == "HealthPickup")
+        switch (col.tag)
         {
-            HealthPickup healthPickup = col.GetComponent<HealthPickup>();
-            ModifyHealth(healthPickup.healthBoost);
-            ModifyHealth(healthPickup.shieldBoost);
+            case "HealthPickup":
+                HealthPickup healthPickup = col.GetComponent<HealthPickup>();
 
-            Destroy(col.gameObject);
+                ModifyHealth(healthPickup.healthBoost);
+                ModifyShield(healthPickup.shieldBoost);
+
+                Destroy(col.gameObject);
+                break;
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D col)
+    {
+        switch (col.tag)
+        {
+            case "Trap":
+                Trap trap = col.GetComponent<Trap>();
+
+                if (!trap.damagedPlayer)
+                {
+                    if (trap.TrapCheck())
+                    {
+                        ModifyShield(-trap.damageAmount);
+                        trap.damagedPlayer = true;
+                    }
+                }
+
+                break;
         }
     }
 }
