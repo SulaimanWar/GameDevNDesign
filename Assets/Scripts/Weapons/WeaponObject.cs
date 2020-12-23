@@ -65,11 +65,18 @@ public class WeaponObject : MonoBehaviour
         }
         #endregion
 
-        #region RAYCAST
+        #region Reticle
 
         GetMousePosition();
         MoveReticle();
 
+        #endregion
+
+        #region RAYCAST
+        Vector2 rayDir = (new Vector2(mousePosition.x, mousePosition.y) - new Vector2(transform.position.x, transform.position.y)).normalized;
+        RaycastHit2D rayHit = Physics2D.Raycast(transform.position, rayDir * 2f);
+
+        Debug.DrawRay(transform.position, rayDir * 2f);
         #endregion
     }
 
