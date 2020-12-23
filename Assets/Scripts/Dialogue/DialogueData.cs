@@ -12,5 +12,9 @@ public class DialogueLine
 {
     [TextArea]
     public string dialogue;
+
+    [Space(10)]
+
+    //public Condition[] condition;
     public ActionData[] actionData;
 }

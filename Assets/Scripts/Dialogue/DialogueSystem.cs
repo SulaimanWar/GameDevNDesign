@@ -114,6 +114,41 @@ public class DialogueSystem : MonoBehaviour
 
         for (int i=0; i<dialogueData.dialogueLines[curLine].actionData.Length; i++)
         {
+            ActionData curActionData = dialogueData.dialogueLines[curLine].actionData[i];
+
+            if (curActionData.condition.haveCondition)
+            {
+                Condition curCondition = curActionData.condition;
+
+                switch (curCondition.keyType)
+                {
+                    case Condition.KeyType.FLOAT:
+                        if(PlayerPrefs.GetFloat(curCondition.playerPrefKey)
+                            == curCondition.targetFloatKey)
+                        {
+                            break;
+                        }
+                        return;
+
+                    case Condition.KeyType.INT:
+                        if (PlayerPrefs.GetInt(curCondition.playerPrefKey)
+                            == curCondition.targetIntKey)
+                        {
+                            break;
+                        }
+                        return;
+
+                    case Condition.KeyType.STRING:
+                        if (PlayerPrefs.GetString(curCondition.playerPrefKey)
+                            == curCondition.targetStringKey)
+                        {
+                            break;
+                        }
+                        return;
+                }
+            }
+
+            //Spawn dialogue button
             GameObject spawnDialogueGO = Instantiate(dialogueButton, dialogueButtonGroup);
             DialogueButton dialogueButtonScript = spawnDialogueGO.GetComponent<DialogueButton>();
             dialogueButtonScript.Setup(dialogueData, curLine, i, dialogueObj);

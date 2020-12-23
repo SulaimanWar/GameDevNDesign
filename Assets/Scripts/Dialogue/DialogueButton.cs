@@ -20,7 +20,10 @@ public class DialogueButton : MonoBehaviour
         {
             case ActionData.ActionType.DIALOGUE:
                 dialogueObject.SelectDialogue(actionData.dialogueData);
-                break;
+                return;
         }
+
+
+        dialogueObject.DoAction(actionData);
     }
 }

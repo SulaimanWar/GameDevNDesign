@@ -11,10 +11,17 @@ public class DialogueObject : MonoBehaviour
     int curLine = 0;
     bool choiceButton;
 
+    ActionObject actionObject;
+
     private void Start()
     {
         playerGO = GameObject.FindGameObjectWithTag("Player");
         dialogueSystem = playerGO.GetComponentInChildren<DialogueSystem>();
+
+        if(GetComponent<ActionObject>() != null)
+        {
+            actionObject = GetComponent<ActionObject>();
+        }
     }
 
     private void Update()
@@ -85,5 +92,10 @@ public class DialogueObject : MonoBehaviour
         choiceButton = false;
         StartConversation();
         dialogueSystem.ResetChoices();
+    }
+
+    public void DoAction(ActionData actionData)
+    {
+        actionObject.DoAction(actionData);
     }
 }
