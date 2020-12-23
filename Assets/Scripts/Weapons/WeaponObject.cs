@@ -76,7 +76,10 @@ public class WeaponObject : MonoBehaviour
         Vector2 rayDir = (new Vector2(mousePosition.x, mousePosition.y) - new Vector2(transform.position.x, transform.position.y)).normalized;
         RaycastHit2D rayHit = Physics2D.Raycast(transform.position, rayDir * 2f);
 
-        Debug.DrawRay(transform.position, rayDir * 2f);
+        if (Input.GetMouseButtonDown(0))
+        {
+            Attack();
+        }
         #endregion
     }
 
@@ -117,6 +120,16 @@ public class WeaponObject : MonoBehaviour
         reticle.transform.position = reticlePosition;
     }
 
+    void Attack()
+    {
+        if (curWeaponData.ranged)
+        {
+            Shoot();
+        }
+    }
 
+    void Shoot()
+    {
 
+    }
 }
