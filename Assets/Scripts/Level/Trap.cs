@@ -10,6 +10,8 @@ public class Trap : MonoBehaviour
     [Tooltip("How long the trap stays up")]
     public float trapLengthInSeconds = 3f;
     float nextTrapTime;
+    public float damageInterval = 1f;
+    [HideInInspector] public float nextDamageTime;
     bool trapEnabled;
     [HideInInspector] public bool damagedPlayer;
 

@@ -76,6 +76,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageAmount: 10
   trapLengthInSeconds: 3
+  damageInterval: 0.65
+  nextDamageTime: 0
   damagedPlayer: 0
   spriteRenderers:
   - {fileID: 2527191750196083235}

@@ -105,15 +105,16 @@ public class PlayerHealth : MonoBehaviour
             case "Trap":
                 Trap trap = col.GetComponent<Trap>();
 
-                if (!trap.damagedPlayer)
+                if (trap.TrapCheck())
                 {
-                    if (trap.TrapCheck())
+                    if(Time.time > trap.nextDamageTime)
                     {
                         ModifyShield(-trap.damageAmount);
                         trap.damagedPlayer = true;
+
+                        trap.nextDamageTime = Time.time + trap.damageInterval;
                     }
                 }
-
                 break;
         }
     }
