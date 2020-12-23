@@ -14,12 +14,14 @@ public class WeaponObject : MonoBehaviour
     KeyCode weaponCKeycode = KeyCode.Alpha3;
     KeyCode weaponDKeycode = KeyCode.Alpha4;
 
+    /*
     enum Direction
     {
         LEFT, UP, RIGHT, DOWN
     }
     Direction dirEnum;
     Transform playerTransform;
+    */
 
     private Camera mainCamera;
     private GameObject reticle;
@@ -32,7 +34,7 @@ public class WeaponObject : MonoBehaviour
 
     private void Start()
     {
-        playerTransform = transform;
+       // playerTransform = transform;
 
         Cursor.visible = false;
         mainCamera = Camera.main;
@@ -93,12 +95,21 @@ public class WeaponObject : MonoBehaviour
         direction = mainCamera.ScreenToWorldPoint(mousePosition);
         direction.z = transform.position.z;
         reticlePosition = direction;
+
+        Vector3 objectPos = Camera.main.WorldToScreenPoint(transform.position);
+        mousePosition.x = mousePosition.x - objectPos.x;
+        mousePosition.y = mousePosition.y - objectPos.y;
+
+        float angle = Mathf.Atan2(mousePosition.y, mousePosition.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
     }
+
     private void MoveReticle()
     {
         reticle.transform.rotation = Quaternion.identity; //set the normal rotation
         reticle.transform.position = reticlePosition;
     }
+
 
 
 }
