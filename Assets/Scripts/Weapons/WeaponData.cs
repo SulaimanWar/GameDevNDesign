@@ -7,11 +7,12 @@ public class WeaponData : ScriptableObject
 
     [Space(10)]
 
-    public float damageAmount;
+    public int damageAmount;
 
     [Space(5)]
 
     public bool ranged;
-    public Sprite projectileSprite;
-    public float rangeAmount;
+    public GameObject projectileGO;
+    public float projectileLifetime;
+    public float projectileSpeed;
 }

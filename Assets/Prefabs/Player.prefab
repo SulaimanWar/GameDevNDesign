@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -76,7 +76,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 0}
   m_FillRect: {fileID: 683519798}
   m_HandleRect: {fileID: 0}
@@ -607,7 +607,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -632,7 +632,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 0}
   m_FillRect: {fileID: 1601314217}
   m_HandleRect: {fileID: 0}
@@ -1418,10 +1418,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8379252176818146259, guid: 31058b13b033b4549ab4e8ac8f80949b,
         type: 3}
+      propertyPath: weaponDatas.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379252176818146259, guid: 31058b13b033b4549ab4e8ac8f80949b,
+        type: 3}
       propertyPath: reticlePrefab
       value: 
       objectReference: {fileID: 6128543464222406324, guid: aaee138644d69a24abf06a3e46ea0eb6,
         type: 3}
+    - target: {fileID: 8379252176818146259, guid: 31058b13b033b4549ab4e8ac8f80949b,
+        type: 3}
+      propertyPath: weaponDatas.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 7e33aea08094b4a4eb3a89ddfbe2810e,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31058b13b033b4549ab4e8ac8f80949b, type: 3}
 --- !u!4 &4960032141716134962 stripped

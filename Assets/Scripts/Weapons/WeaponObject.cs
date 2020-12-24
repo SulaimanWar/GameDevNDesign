@@ -5,6 +5,7 @@ using UnityEngine;
 public class WeaponObject : MonoBehaviour
 {
     [SerializeField] SpriteRenderer spriteRenderer;
+    GameObject projectileBase;
 
     public WeaponData[] weaponDatas;
     WeaponData curWeaponData;
@@ -30,6 +31,7 @@ public class WeaponObject : MonoBehaviour
     private Vector3 mousePosition;
     private Vector3 reticlePosition;
     public GameObject reticlePrefab;
+    Vector2 rayDir;
 
 
     private void Start()
@@ -74,12 +76,18 @@ public class WeaponObject : MonoBehaviour
         #endregion
 
         #region RAYCAST
-        Vector2 rayDir = (new Vector2(mousePosition.x, mousePosition.y) - new Vector2(transform.position.x, transform.position.y)).normalized;
-        RaycastHit2D rayHit = Physics2D.Raycast(transform.position, rayDir * 2f);
+        rayDir = (new Vector2(mousePosition.x, mousePosition.y) - new Vector2(transform.position.x, transform.position.y)).normalized;
 
         if (Input.GetMouseButtonDown(0))
         {
-            Attack();
+            if (curWeaponData.ranged)
+            {
+                Shoot();
+            }
+            else
+            {
+                Melee();
+            }
         }
         #endregion
     }
@@ -93,6 +101,7 @@ public class WeaponObject : MonoBehaviour
         curWeaponData = weaponDatas[weaponIndex];
 
         spriteRenderer.sprite = curWeaponData.weaponSprite;
+        projectileBase = curWeaponData.projectileGO;
     }
 
 
@@ -121,16 +130,31 @@ public class WeaponObject : MonoBehaviour
         reticle.transform.position = reticlePosition;
     }
 
-    void Attack()
+    void Melee()
     {
-        if (curWeaponData.ranged)
+        RaycastHit2D rayHit = Physics2D.Raycast(transform.position, rayDir * 2f);
+
+        if(rayHit.collider == null)
         {
-            Shoot();
+            return;
+        }
+
+        if(rayHit.collider.tag == "Enemy")
+        {
+            AIHealth aiHealth = rayHit.collider.GetComponent<AIHealth>();
+            aiHealth.Damage(curWeaponData.damageAmount);
         }
     }
 
     void Shoot()
     {
+        GameObject spawnedProjectile = Instantiate(projectileBase, transform);
+        spawnedProjectile.transform.localPosition = Vector3.zero;
+        float angle = Mathf.Atan2(mousePosition.y, mousePosition.x) * Mathf.Rad2Deg;
+        spawnedProjectile.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90f));
+        spawnedProjectile.transform.parent = null;
+        Projectile projectile = spawnedProjectile.GetComponent<Projectile>();
 
+        projectile.SetProjectile(curWeaponData);
     }
 }
