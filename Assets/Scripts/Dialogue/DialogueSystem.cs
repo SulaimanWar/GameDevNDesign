@@ -110,6 +110,10 @@ public class DialogueSystem : MonoBehaviour
 
     public void SetupActionData(DialogueData dialogueData, int curLine, DialogueObject dialogueObj)
     {
+        for(int i=0; i<dialogueButtonList.Count; i++)
+        {
+            Destroy(dialogueButtonList[i]);
+        }
         dialogueButtonList.Clear();
 
         for (int i=0; i<dialogueData.dialogueLines[curLine].actionData.Length; i++)

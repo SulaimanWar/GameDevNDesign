@@ -39,6 +39,7 @@ public class WeaponObject : MonoBehaviour
         Cursor.visible = false;
         mainCamera = Camera.main;
         reticle = Instantiate(reticlePrefab);
+        SetData(0);
     }
 
     private void Update()
