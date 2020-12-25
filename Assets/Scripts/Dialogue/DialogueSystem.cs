@@ -5,6 +5,8 @@ using TMPro;
 public class DialogueSystem : MonoBehaviour
 {
     public CharacterMovement charMovement;
+    public WeaponObject weaponObject;
+
     public GameObject dialogueGO;
     public TextMeshProUGUI dialogueText;
     Transform playerTransform;
@@ -100,6 +102,7 @@ public class DialogueSystem : MonoBehaviour
     {
         dialogueMode = newDialogueMode;
         charMovement.enabled = !dialogueMode;
+        weaponObject.enabled = !dialogueMode;
         dialogueGO.SetActive(dialogueMode);
     }
 
