@@ -13,10 +13,14 @@ public class DialogueObject : MonoBehaviour
 
     ActionObject actionObject;
 
+    DialogueData oriDialogue;
+    bool dialogueMode;
+
     private void Start()
     {
         playerGO = GameObject.FindGameObjectWithTag("Player");
         dialogueSystem = playerGO.GetComponentInChildren<DialogueSystem>();
+        oriDialogue = dialogueData;
 
         if(GetComponent<ActionObject>() != null)
         {
@@ -26,7 +30,7 @@ public class DialogueObject : MonoBehaviour
 
     private void Update()
     {
-        if (!choiceButton)
+        if (!choiceButton && dialogueMode)
         {
             if (Input.GetKeyDown(KeyCode.O))
             {
@@ -48,7 +52,7 @@ public class DialogueObject : MonoBehaviour
     public void StartConversation()
     {
         curLine = 0;
-
+        dialogueMode = true;
         dialogueSystem.DialogueMode(true);
         choiceButton = false;
         DisplayLine();
@@ -81,9 +85,11 @@ public class DialogueObject : MonoBehaviour
 
     void EndConversation()
     {
+        dialogueMode = false;
         curLine = 0;
         dialogueSystem.DialogueMode(false);
         choiceButton = false;
+        dialogueData = oriDialogue;
     }
 
     public void SelectDialogue(DialogueData newDialogueData)
