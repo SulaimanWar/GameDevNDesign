@@ -50,6 +50,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonText: {fileID: 3988912081269232084}
+  passcodeInput: {fileID: 6075078945359242603, guid: f9b5d38d91f9d844883460533273b006,
+    type: 3}
 --- !u!1 &6807567312110152809
 GameObject:
   m_ObjectHideFlags: 0

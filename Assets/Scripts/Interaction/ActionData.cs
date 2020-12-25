@@ -9,7 +9,7 @@ public class ActionData : ScriptableObject
     public string choiceText;
     public enum ActionType
     {
-        DIALOGUE, ACTIVE
+        DIALOGUE, ACTIVE, PASSCODE
     }
     public ActionType actionType;
 
@@ -17,6 +17,13 @@ public class ActionData : ScriptableObject
 
     [Header("DIALOGUE")]
     public DialogueData dialogueData;
+
+    [Space(15)]
+
+    [Header("PASSCODE")]
+    public string passcode;
+    public DialogueData passDialogueData;
+    public DialogueData failDialogueData;
 }
 
 [Serializable]
