@@ -5,9 +5,8 @@ using UnityEngine;
 
 public class Path : MonoBehaviour
 {
-    [Header("Settings")]
-    public Transform[] pathTransform;
-	private List<Vector3> path = new List<Vector3>();
+    [Header("Settings")] 
+	[SerializeField] private List<Vector3> path;
 	[SerializeField] private float minDistanceToPoint = 0.1f;
  
 	public Vector3 CurrentPoint => startPosition + currentPoint.Current;
@@ -19,12 +18,7 @@ public class Path : MonoBehaviour
 	private bool gameStared;
 
     private void Start()
-    {
-        foreach (Transform curPath in pathTransform)
-        {
-            path.Add(curPath.position);
-        }
-
+	{
 		gameStared = true;
 
         startPosition = transform.position;
@@ -81,6 +75,24 @@ public class Path : MonoBehaviour
         if (!gameStared && transform.hasChanged)
         {
             currentPosition = transform.position;
+        }
+       
+        for (int i = 0; i < path.Count; i++)
+        {
+            Gizmos.color = Color.blue;
+            Gizmos.DrawWireSphere(currentPosition + path[i], 0.3f);
+
+            if (i < path.Count - 1)
+            {
+                Gizmos.color = Color.cyan;
+                Gizmos.DrawLine(currentPosition + path[i], currentPosition + path[i + 1]);
+            }
+
+            if (i == path.Count - 1)
+            {
+                Gizmos.color = Color.cyan;
+                Gizmos.DrawLine(currentPosition + path[i], currentPosition + path[0]);
+            }
         }
     }
 }
