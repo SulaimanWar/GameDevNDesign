@@ -6,6 +6,8 @@ public class ActionData : ScriptableObject
 {
     public Condition condition;
 
+    [Space(20)]
+
     public string choiceText;
     public enum ActionType
     {
