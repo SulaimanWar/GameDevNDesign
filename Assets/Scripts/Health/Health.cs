@@ -180,19 +180,22 @@ public class Health : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D col)
     {
-        switch (col.tag)
+        if(character.CharacterType == Character.CharacterTypes.Player)
         {
-            case "Trap":
-                Trap trap = col.GetComponent<Trap>();
-                if (trap.TrapCheck())
-                {
-                    if(Time.time > trap.nextDamageTime)
+            switch (col.tag)
+            {
+                case "Trap":
+                    Trap trap = col.GetComponent<Trap>();
+                    if (trap.TrapCheck())
                     {
-                        trap.nextDamageTime = Time.time + trap.damageInterval;
-                        TakeDamage(trap.damageAmount);
+                        if (Time.time > trap.nextDamageTime)
+                        {
+                            trap.nextDamageTime = Time.time + trap.damageInterval;
+                            TakeDamage(trap.damageAmount);
+                        }
                     }
-                }
-                break;
+                    break;
+            }
         }
     }
 }

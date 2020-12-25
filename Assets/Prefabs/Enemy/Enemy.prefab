@@ -12,9 +12,15 @@ GameObject:
   - component: {fileID: 1142360756129018334}
   - component: {fileID: 1142360756129018328}
   - component: {fileID: 6051028391340935230}
-  - component: {fileID: 1142360756129018335}
-  - component: {fileID: 389397953185812653}
-  - component: {fileID: 389397953185812652}
+  - component: {fileID: 2156805680256946775}
+  - component: {fileID: 783501173748228899}
+  - component: {fileID: 9205558355836359432}
+  - component: {fileID: 6348147086438961791}
+  - component: {fileID: 6894655376077352294}
+  - component: {fileID: 7668183475739724006}
+  - component: {fileID: 7285759240646446709}
+  - component: {fileID: 4429282945335291311}
+  - component: {fileID: 1352231427226484890}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -30,7 +36,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1142360756129018329}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.27, y: 5.07, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -121,7 +127,7 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1142360756129018329}
   m_BodyType: 0
-  m_Simulated: 1
+  m_Simulated: 0
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
@@ -133,7 +139,26 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1142360756129018335
+--- !u!95 &2156805680256946775
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142360756129018329}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4ecca2b5447da264692e55b98452920f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &783501173748228899
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -142,11 +167,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1142360756129018329}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80f3cfff3b8b64d4cba8b62e49ae60a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 3f05a474b27fa064abf4b23c9b0a1eb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 50
---- !u!114 &389397953185812653
+  currentState: {fileID: 11400000, guid: 261d5b6deee8bca4f893e95fff7944d0, type: 2}
+  remainState: {fileID: 11400000, guid: 7811479ccc3892642b78d0db3cddc0e8, type: 2}
+  fieldOfView: {fileID: 0}
+--- !u!114 &9205558355836359432
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -155,14 +182,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1142360756129018329}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0744b371ee8c10478cdb3e04acdb4a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 65fd0d63a78587b49b2b06ad789a9486, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  patrolling: 0
-  patrolPoints: []
-  randomise: 0
-  speed: 8
---- !u!114 &389397953185812652
+  characterType: 1
+  characterSprite: {fileID: 1142360756129018329}
+  characterAnimator: {fileID: 2156805680256946775}
+--- !u!114 &6348147086438961791
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -171,8 +197,82 @@ MonoBehaviour:
   m_GameObject: {fileID: 1142360756129018329}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7464ec25d3f66af41ad26502d0000a85, type: 3}
+  m_Script: {fileID: 11500000, guid: bef67a9f015f1184b9dc4556c56f4915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  aiPatrol: {fileID: 389397953185812653}
-  patrolling: 0
+--- !u!114 &6894655376077352294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142360756129018329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3b2ad0397db13e4ba9a91a1fddcc0d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSpeed: 6
+--- !u!114 &7668183475739724006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142360756129018329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6426ba55eaa7a1f4880c66cf33167a6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flipMode: 0
+  threshold: 0.1
+--- !u!114 &7285759240646446709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142360756129018329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 191d95c28089d0940a21f26c32d11aba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathTransform:
+  - {fileID: 0}
+  - {fileID: 0}
+  minDistanceToPoint: 0.1
+--- !u!114 &4429282945335291311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142360756129018329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d8088e96eea75549a3bb62035ba793d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialHealth: 30
+  maxHealth: 30
+  initialShield: 20
+  maxShield: 20
+  destroyObject: 1
+--- !u!114 &1352231427226484890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142360756129018329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460ab61ccbb45544e9c3230a57ce86c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyHealthBarPrefab: {fileID: 4586416538593108456, guid: dc3a4c58583da1c499866c1090b868da,
+    type: 3}
+  offSet: {x: 0, y: 1, z: 0}
+  damageToApply: 1
