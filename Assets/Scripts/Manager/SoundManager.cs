@@ -16,9 +16,13 @@ public class SoundManager : Singleton<SoundManager>
     [SerializeField] private AudioClip itemClip;
     
     public AudioClip ShootClip => shootClip;
+
     public AudioClip ImpactClip => impactClip;
+
     public AudioClip CoinClip => coinClip;
+
     public AudioClip ItemClip => itemClip;
+
     public AudioClip DashClip => dashClip; 
 
 	private AudioSource musicAudioSource;    

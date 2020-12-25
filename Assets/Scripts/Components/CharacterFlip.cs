@@ -74,12 +74,12 @@ public class CharacterFlip : CharacterComponents
     {
         if (newDirection == 1)
         { 
-            character.CharacterSprite.transform.localScale = new Vector3(1,1,1);
+            character.CharacterSprite.transform.localScale = new Vector3(5,5,1);
             FacingRight = true;            
         }
         else
         {
-            character.CharacterSprite.transform.localScale = new Vector3(-1,1,1);
+            character.CharacterSprite.transform.localScale = new Vector3(5,5,1);
             FacingRight = false;            
         }
     }

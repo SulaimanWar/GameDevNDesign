@@ -176,5 +176,23 @@ public class Health : MonoBehaviour
         {
             UIManager.Instance.UpdateHealth(CurrentHealth, maxHealth, CurrentShield, maxShield, isPlayer);
         }
-    }   
+    }
+
+    private void OnTriggerStay2D(Collider2D col)
+    {
+        switch (col.tag)
+        {
+            case "Trap":
+                Trap trap = col.GetComponent<Trap>();
+                if (trap.TrapCheck())
+                {
+                    if(Time.time > trap.nextDamageTime)
+                    {
+                        trap.nextDamageTime = Time.time + trap.damageInterval;
+                        TakeDamage(trap.damageAmount);
+                    }
+                }
+                break;
+        }
+    }
 }

@@ -5,6 +5,9 @@ using TMPro;
 public class DialogueSystem : MonoBehaviour
 {
 
+    [SerializeField] CharacterMovement charMovement;
+    [SerializeField] CharacterWeapon charWeapon;
+
     public GameObject dialogueGO;
     public TextMeshProUGUI dialogueText;
     Transform playerTransform;
@@ -99,8 +102,8 @@ public class DialogueSystem : MonoBehaviour
     public void DialogueMode(bool newDialogueMode)
     {
         dialogueMode = newDialogueMode;
-       // charMovement.enabled = !dialogueMode;
-       // weaponObject.enabled = !dialogueMode;
+        charMovement.enabled = !dialogueMode;
+        charWeapon.enabled = !dialogueMode;
         dialogueGO.SetActive(dialogueMode);
     }
 

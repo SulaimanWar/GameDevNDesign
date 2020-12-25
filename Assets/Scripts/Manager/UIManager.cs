@@ -8,22 +8,20 @@ using UnityEngine.UI;
 public class UIManager : Singleton<UIManager>
 {
     [Header("Settings")]
-    [SerializeField] private Image healthBar;
-    [SerializeField] private Image shieldBar;
-    [SerializeField] private TextMeshProUGUI currentHealthTMP;
-    [SerializeField] private TextMeshProUGUI currentShieldTMP;
+    [SerializeField] private Slider healthBar;
+    [SerializeField] private Slider shieldBar;
 
     [Header("Weapon")]
-    [SerializeField] private TextMeshProUGUI currentAmmoTMP;
+   // [SerializeField] private TextMeshProUGUI currentAmmoTMP;
     [SerializeField] private Image weaponImage;
 
-    [Header("Text")] 
-    [SerializeField] private TextMeshProUGUI coinsTMP;
+   // [Header("Text")] 
+    //[SerializeField] private TextMeshProUGUI coinsTMP;
 
-    [Header("Boss")] 
-	[SerializeField] private Image bossHealth;
-    [SerializeField] private GameObject bossHealthBarPanel;
-    [SerializeField] private GameObject bossIntroPanel;
+   // [Header("Boss")] 
+	//[SerializeField] private Image bossHealth;
+    //[SerializeField] private GameObject bossHealthBarPanel;
+   // [SerializeField] private GameObject bossIntroPanel;
 	
     private float playerCurrentHealth;
     private float playerMaxHealth;
@@ -72,28 +70,25 @@ public class UIManager : Singleton<UIManager>
     private void InternalUpdate()
     {
         if (isPlayer)
-        {        
-           healthBar.fillAmount = Mathf.Lerp(healthBar.fillAmount, playerCurrentHealth / playerMaxHealth, 10f * Time.deltaTime);
-           currentHealthTMP.text = playerCurrentHealth.ToString() + "/" + playerMaxHealth.ToString(); 
-
-           shieldBar.fillAmount = Mathf.Lerp(shieldBar.fillAmount, playerCurrentShield / playerMaxShield, 10f * Time.deltaTime);
-           currentShieldTMP.text = playerCurrentShield.ToString() + "/" + playerMaxShield.ToString();
+        {
+            healthBar.value = playerCurrentHealth / playerMaxHealth;
+            shieldBar.value = playerCurrentShield / playerMaxShield;
         }
 
         // Update Ammo
-        currentAmmoTMP.text = playerCurrentAmmo + " / " + playerMaxAmmo;    
+       // currentAmmoTMP.text = playerCurrentAmmo + " / " + playerMaxAmmo;    
 
         // Update Coins
-        coinsTMP.text = CoinManager.Instance.Coins.ToString(); 
+       // coinsTMP.text = CoinManager.Instance.Coins.ToString(); 
 
         // Update Boss Health
-        bossHealth.fillAmount = Mathf.Lerp(bossHealth.fillAmount, bossCurrentHealth / bossMaxHealth, 10f * Time.deltaTime);
+        //bossHealth.fillAmount = Mathf.Lerp(bossHealth.fillAmount, bossCurrentHealth / bossMaxHealth, 10f * Time.deltaTime);
 	}
 
     private IEnumerator BossFight()
     {
-        bossIntroPanel.SetActive(true);
-        StartCoroutine(MyLibrary.FadeCanvasGroup(bossIntroPanel.GetComponent<CanvasGroup>(), 1f, 1f));
+      //  bossIntroPanel.SetActive(true);
+       // StartCoroutine(MyLibrary.FadeCanvasGroup(bossIntroPanel.GetComponent<CanvasGroup>(), 1f, 1f));
         
         // Move Camera -> Boss
         Camera2D.Instance.Target = LevelManager.Instance.Boss;
@@ -104,7 +99,8 @@ public class UIManager : Singleton<UIManager>
         // Go back to the player
         Camera2D.Instance.Target = LevelManager.Instance.Player;
         Camera2D.Instance.Offset = Camera2D.Instance.PlayerOffset;
-        
+
+        /*
         // Show Boss HealthBar
         StartCoroutine(MyLibrary.FadeCanvasGroup(bossIntroPanel.GetComponent<CanvasGroup>(), 1f, 0f, () =>
         {
@@ -112,14 +108,17 @@ public class UIManager : Singleton<UIManager>
             bossHealthBarPanel.SetActive(true);
             StartCoroutine(MyLibrary.FadeCanvasGroup(bossHealthBarPanel.GetComponent<CanvasGroup>(), 1f, 1f));
         }));
+        */
     }
 
     private void OnBossDead()
     {
+        /*
         StartCoroutine(MyLibrary.FadeCanvasGroup(bossHealthBarPanel.GetComponent<CanvasGroup>(), 1f, 0f, () =>
         {
             bossHealthBarPanel.SetActive(false);
         }));
+        */
     }
     
     private void OnEventResponse(GameEvent.EventType obj)

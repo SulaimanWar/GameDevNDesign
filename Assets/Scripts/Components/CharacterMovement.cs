@@ -43,6 +43,12 @@ public class CharacterMovement : CharacterComponents
             if (character.CharacterAnimator != null)
             {
                 character.CharacterAnimator.SetBool(movingParamater, true);
+
+                animator.SetFloat("Horizontal", horizontalInput);
+                animator.SetFloat("Vertical", verticalInput);
+
+                animator.SetFloat("last_H", horizontalInput);
+                animator.SetFloat("last_V", verticalInput);
             }
         }
         else

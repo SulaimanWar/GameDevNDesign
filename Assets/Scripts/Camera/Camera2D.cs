@@ -10,9 +10,9 @@ public class Camera2D : Singleton<Camera2D>
         Update,
         FixedUpdate,
         LateUpdate
-    }    
+    }
 
-    public Transform Target { get; set; }
+    public Transform Target;
     public Vector2 Offset { get; set; }
 	public Vector2 PlayerOffset => offset;
 
@@ -26,6 +26,11 @@ public class Camera2D : Singleton<Camera2D>
     {
         base.Awake();
         Offset = offset;
+    }
+
+    private void Start()
+    {
+        Target = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     private void Update()
