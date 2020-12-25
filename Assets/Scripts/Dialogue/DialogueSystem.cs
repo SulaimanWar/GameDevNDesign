@@ -4,8 +4,6 @@ using TMPro;
 
 public class DialogueSystem : MonoBehaviour
 {
-    public CharacterMovement charMovement;
-    public WeaponObject weaponObject;
 
     public GameObject dialogueGO;
     public TextMeshProUGUI dialogueText;
@@ -101,8 +99,8 @@ public class DialogueSystem : MonoBehaviour
     public void DialogueMode(bool newDialogueMode)
     {
         dialogueMode = newDialogueMode;
-        charMovement.enabled = !dialogueMode;
-        weaponObject.enabled = !dialogueMode;
+       // charMovement.enabled = !dialogueMode;
+       // weaponObject.enabled = !dialogueMode;
         dialogueGO.SetActive(dialogueMode);
     }
 

@@ -1,22 +1,32 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-public class Camera2D : MonoBehaviour
+public class Camera2D : Singleton<Camera2D>
 {
     private enum CameraMode
     {
         Update,
         FixedUpdate,
         LateUpdate
-    }
+    }    
 
-    [Header("Target")]
-    [SerializeField] private Transform targetTransform;  // which is the Player 
+    public Transform Target { get; set; }
+    public Vector2 Offset { get; set; }
+	public Vector2 PlayerOffset => offset;
 
-    [Header("Offset")]
+    [Header("Offset")] 
     [SerializeField] private Vector2 offset;
 
-    [Header("Mode")]
-    [SerializeField] private CameraMode cameraMode = CameraMode.Update;
+    [Header("Mode")] 
+	[SerializeField] private CameraMode cameraMode = CameraMode.Update;
+
+    protected override void Awake()
+    {
+        base.Awake();
+        Offset = offset;
+    }
 
     private void Update()
     {
@@ -32,7 +42,7 @@ public class Camera2D : MonoBehaviour
         {
             FollowTarget();
         }
-    }
+    }	
 
     private void LateUpdate()
     {
@@ -44,8 +54,7 @@ public class Camera2D : MonoBehaviour
 
     private void FollowTarget()
     {
-        Vector3 desiredPosition = new Vector3(targetTransform.position.x + offset.x, targetTransform.position.y + offset.y, transform.position.z);
+        Vector3 desiredPosition = new Vector3(Target.position.x + Offset.x, Target.position.y + Offset.y, transform.position.z);
         transform.position = desiredPosition;
     }
 }
-
