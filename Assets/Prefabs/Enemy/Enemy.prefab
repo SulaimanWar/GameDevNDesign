@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1142360756129018335}
   - component: {fileID: 389397953185812653}
   - component: {fileID: 8370609258773911923}
-  - component: {fileID: 1695932481}
+  - component: {fileID: 2381671512585391304}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -31,7 +31,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1142360756129018329}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.27, y: 5.07, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children:
   - {fileID: 4099211496698674428}
@@ -115,7 +115,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.85, y: 0.85}
+  m_Size: {x: 0.83, y: 0.86}
   m_EdgeRadius: 0
 --- !u!50 &6051028391340935230
 Rigidbody2D:
@@ -185,7 +185,7 @@ MonoBehaviour:
   chaseSpeed: 8
   inRange: 0
   moving: 0
---- !u!95 &1695932481
+--- !u!95 &2381671512585391304
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -321,7 +321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24cb02d9500944547b9fcaf2f0c045b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 4
+  range: 8
   attacking: 0
   attackInterval: 0.75
   projectilePrefab: {fileID: 1280408852233158750, guid: e8550a06d5a00c745b273dacfb64ce3a,

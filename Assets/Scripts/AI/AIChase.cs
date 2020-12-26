@@ -9,8 +9,8 @@ public class AIChase : MonoBehaviour
 
     AIPatrol aiPatrol;
     AIAttack aiAttack;
-    public bool inRange;
-    public bool moving;
+    bool inRange;
+    bool moving;
 
     private void Start()
     {

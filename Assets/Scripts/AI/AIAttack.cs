@@ -11,7 +11,6 @@ public class AIAttack : MonoBehaviour
     public float attackInterval = 0.75f;
     float nextAttackTime;
     public GameObject projectilePrefab;
-    public float offset = 180f;
 
     private void Start()
     {
@@ -28,11 +27,11 @@ public class AIAttack : MonoBehaviour
                 Shoot();
             }
 
-            Vector2 shootDir = (new Vector2(player.transform.position.x, player.transform.position.y) -
-            new Vector2(transform.position.x, transform.position.y)).normalized;
+            Vector2 shootDir = (new Vector2(transform.position.x, transform.position.y) -
+                new Vector2(player.transform.position.x, player.transform.position.y)).normalized;
 
-            float angle = Mathf.Atan2(player.transform.position.y, player.transform.position.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - offset));
+            float angle = Mathf.Atan2(shootDir.y, shootDir.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 270f));
         }
     }
 
