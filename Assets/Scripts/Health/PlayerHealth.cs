@@ -18,10 +18,8 @@ public class PlayerHealth : MonoBehaviour
     }
 
 
-    void Die()
+    public void Die()
     {
-        //DEATH CODE HERE
-        //REPLACE THIS PLACEHOLDER CODE
         Destroy(gameObject);
     }
 

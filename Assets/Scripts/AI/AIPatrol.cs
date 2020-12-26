@@ -8,9 +8,13 @@ public class AIPatrol : MonoBehaviour
     public bool randomise;
     public float speed = 8f;
 
+    Vector3 oriScale;
+
     private void Start()
     {
-        if(patrolPoints.Length > 0)
+        oriScale = transform.localScale;
+
+        if (patrolPoints.Length > 0)
         {
             patrolPos = new Vector2(patrolPoints[0].transform.position.x, patrolPoints[0].transform.position.y);
         }
@@ -20,6 +24,14 @@ public class AIPatrol : MonoBehaviour
     {
         Vector2 moveDir = (patrolPos - new Vector2(transform.position.x, transform.position.y)).normalized;
         transform.position += new Vector3(moveDir.x, moveDir.y, 0f) * (speed * Time.deltaTime);
+        if(moveDir.x > 0)
+        {
+            transform.localScale = oriScale;
+        }
+        else
+        {
+            transform.localScale = new Vector3(-oriScale.x, oriScale.y, oriScale.z);
+        }
 
         if((patrolPos - new Vector2(transform.position.x, transform.position.y)).magnitude < 0.5f)
         {
