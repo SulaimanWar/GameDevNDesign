@@ -2,7 +2,6 @@
 
 public class AIPatrol : MonoBehaviour
 {
-    public bool patrolling;
     public Transform[] patrolPoints;
     Vector2 patrolPos;
     int patrolIndex;
