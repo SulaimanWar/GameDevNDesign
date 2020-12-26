@@ -10,6 +10,11 @@ public class DialogueButton : MonoBehaviour
     public GameObject passcodeInput;
     GameObject curPasscodeInput;
 
+    private void Start()
+    {
+        Debug.Log(gameObject.name);
+    }
+
     public void Setup(DialogueData dialogueData, int curLine, int curActionData, DialogueObject dialogueObj)
     {
         actionData = dialogueData.dialogueLines[curLine].actionData[curActionData];
@@ -32,10 +37,22 @@ public class DialogueButton : MonoBehaviour
                 dialogueObject.SelectDialogue(actionData.dialogueData);
                 return;
 
+            case ActionData.ActionType.ACTIVE:
+                if (actionData.nextDialogue != null)
+                {
+                    dialogueObject.SelectDialogue(actionData.nextDialogue);
+                }
+                break;
+
             case ActionData.ActionType.PASSCODE:
                 CheckPasscode();
 
                 Destroy(curPasscodeInput);
+                return;
+
+            case ActionData.ActionType.DIE:
+                GameObject player = GameObject.FindGameObjectWithTag("Player");
+                player.GetComponent<PlayerHealth>().Die();
                 return;
         }
 
