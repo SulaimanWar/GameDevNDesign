@@ -100,6 +100,13 @@ public class DialogueObject : MonoBehaviour
         dialogueSystem.ResetChoices();
     }
 
+    public void EndDialogue()
+    {
+        choiceButton = false;
+        dialogueSystem.ResetChoices();
+        EndConversation();
+    }
+
     public void DoAction(ActionData actionData)
     {
         actionObject.DoAction(actionData);

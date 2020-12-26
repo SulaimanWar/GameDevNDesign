@@ -42,6 +42,10 @@ public class DialogueButton : MonoBehaviour
                 {
                     dialogueObject.SelectDialogue(actionData.nextDialogue);
                 }
+                else
+                {
+                    dialogueObject.EndDialogue();
+                }
                 break;
 
             case ActionData.ActionType.PASSCODE:
