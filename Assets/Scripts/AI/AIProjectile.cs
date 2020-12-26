@@ -13,5 +13,6 @@ public class AIProjectile : MonoBehaviour
     private void Update()
     {
         transform.position += transform.up * projectileData.speed * Time.deltaTime;
+        RaycastHit2D rayHit = 
     }
 }
