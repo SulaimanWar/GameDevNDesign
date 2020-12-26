@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Character : MonoBehaviour
 {
@@ -12,15 +10,22 @@ public class Character : MonoBehaviour
 
     [SerializeField] private CharacterTypes characterType;
 
-    // Start is called before the first frame update
-    void Start()
-    {
 
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if(col.tag == "EnemyDetect")
+        {
+            AIDetect aiDetect = col.GetComponent<AIDetect>();
+            aiDetect.detecting = true;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerExit2D(Collider2D col)
     {
-
+        if (col.tag == "EnemyDetect")
+        {
+            AIDetect aiDetect = col.GetComponent<AIDetect>();
+            aiDetect.detecting = false;
+        }
     }
 }

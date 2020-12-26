@@ -8,6 +8,12 @@ public class DialogueButton : MonoBehaviour
     ActionData actionData;
 
     public GameObject passcodeInput;
+    GameObject curPasscodeInput;
+
+    private void Start()
+    {
+        Debug.Log(gameObject.name);
+    }
 
     public void Setup(DialogueData dialogueData, int curLine, int curActionData, DialogueObject dialogueObj)
     {
@@ -18,7 +24,7 @@ public class DialogueButton : MonoBehaviour
         switch (actionData.actionType)
         {
             case ActionData.ActionType.PASSCODE:
-                Instantiate(passcodeInput, transform.parent);
+                curPasscodeInput = Instantiate(passcodeInput, transform.parent);
                 break;
         }
     }
@@ -31,8 +37,26 @@ public class DialogueButton : MonoBehaviour
                 dialogueObject.SelectDialogue(actionData.dialogueData);
                 return;
 
+            case ActionData.ActionType.ACTIVE:
+                if (actionData.nextDialogue != null)
+                {
+                    dialogueObject.SelectDialogue(actionData.nextDialogue);
+                }
+                else
+                {
+                    dialogueObject.EndDialogue();
+                }
+                break;
+
             case ActionData.ActionType.PASSCODE:
                 CheckPasscode();
+
+                Destroy(curPasscodeInput);
+                return;
+
+            case ActionData.ActionType.DIE:
+                GameObject player = GameObject.FindGameObjectWithTag("Player");
+                player.GetComponent<PlayerHealth>().Die();
                 return;
         }
 
@@ -42,15 +66,20 @@ public class DialogueButton : MonoBehaviour
 
     void CheckPasscode()
     {
-        Passcode passcode = passcodeInput.GetComponent<Passcode>();
+        Passcode passcode = curPasscodeInput.GetComponent<Passcode>();
         string input = passcode.GetInput();
 
-        if(input == actionData.passcode)
+        Debug.Log("Input:" + input);
+        Debug.Log("a:" + actionData.passcode);
+
+        if(input.Contains(actionData.passcode))
         {
+            Debug.Log("True");
             dialogueObject.SelectDialogue(actionData.passDialogueData);
         }
         else
         {
+            Debug.Log("False");
             dialogueObject.SelectDialogue(actionData.failDialogueData);
         }
     }

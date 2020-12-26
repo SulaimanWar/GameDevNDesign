@@ -18,10 +18,8 @@ public class PlayerHealth : MonoBehaviour
     }
 
 
-    void Die()
+    public void Die()
     {
-        //DEATH CODE HERE
-        //REPLACE THIS PLACEHOLDER CODE
         Destroy(gameObject);
     }
 
@@ -51,10 +49,10 @@ public class PlayerHealth : MonoBehaviour
 
     //This is a public function to update our shield amount
     //Maybe by drinking potion or getting attacked
-    public void ModifyShield(int modifyAmount)
+    public void ModifyShield(int modifyAmount, bool shieldOnly)
     {
         //If damage received is more than the shield amount, transfer that damage into health
-        if(modifyAmount > curShield && modifyAmount < 0)
+        if(modifyAmount > curShield && !shieldOnly)
         {
             ModifyHealth(curShield - modifyAmount);
         }
@@ -91,9 +89,16 @@ public class PlayerHealth : MonoBehaviour
                 HealthPickup healthPickup = col.GetComponent<HealthPickup>();
 
                 ModifyHealth(healthPickup.healthBoost);
-                ModifyShield(healthPickup.shieldBoost);
+                ModifyShield(healthPickup.shieldBoost, true);
 
                 Destroy(col.gameObject);
+                break;
+
+            case "EnemyProjectile":
+                AIProjectile aiProjectile = col.GetComponent<AIProjectile>();
+                ModifyShield(-aiProjectile.projectileData.damage, false);
+
+                Destroy(aiProjectile.gameObject);
                 break;
         }
     }
@@ -109,7 +114,7 @@ public class PlayerHealth : MonoBehaviour
                 {
                     if(Time.time > trap.nextDamageTime)
                     {
-                        ModifyShield(-trap.damageAmount);
+                        ModifyShield(-trap.damageAmount, false);
                         trap.damagedPlayer = true;
 
                         trap.nextDamageTime = Time.time + trap.damageInterval;
