@@ -104,6 +104,7 @@ public class DialogueSystem : MonoBehaviour
         charMovement.enabled = !dialogueMode;
         weaponObject.enabled = !dialogueMode;
         dialogueGO.SetActive(dialogueMode);
+        Cursor.visible = newDialogueMode;
     }
 
     public void DisplayText(string textToDisplay)

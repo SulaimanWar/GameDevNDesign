@@ -8,6 +8,7 @@ public class DialogueButton : MonoBehaviour
     ActionData actionData;
 
     public GameObject passcodeInput;
+    GameObject curPasscodeInput;
 
     public void Setup(DialogueData dialogueData, int curLine, int curActionData, DialogueObject dialogueObj)
     {
@@ -18,7 +19,7 @@ public class DialogueButton : MonoBehaviour
         switch (actionData.actionType)
         {
             case ActionData.ActionType.PASSCODE:
-                Instantiate(passcodeInput, transform.parent);
+                curPasscodeInput = Instantiate(passcodeInput, transform.parent);
                 break;
         }
     }
@@ -33,6 +34,8 @@ public class DialogueButton : MonoBehaviour
 
             case ActionData.ActionType.PASSCODE:
                 CheckPasscode();
+
+                Destroy(curPasscodeInput);
                 return;
         }
 
@@ -42,15 +45,20 @@ public class DialogueButton : MonoBehaviour
 
     void CheckPasscode()
     {
-        Passcode passcode = passcodeInput.GetComponent<Passcode>();
+        Passcode passcode = curPasscodeInput.GetComponent<Passcode>();
         string input = passcode.GetInput();
 
-        if(input == actionData.passcode)
+        Debug.Log("Input:" + input);
+        Debug.Log("a:" + actionData.passcode);
+
+        if(input.Contains(actionData.passcode))
         {
+            Debug.Log("True");
             dialogueObject.SelectDialogue(actionData.passDialogueData);
         }
         else
         {
+            Debug.Log("False");
             dialogueObject.SelectDialogue(actionData.failDialogueData);
         }
     }
