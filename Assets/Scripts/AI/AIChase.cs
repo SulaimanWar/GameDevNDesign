@@ -12,8 +12,11 @@ public class AIChase : MonoBehaviour
     bool inRange;
     bool moving;
 
+    Vector3 oriScale;
+
     private void Start()
     {
+        oriScale = transform.localScale;
         player = GameObject.FindGameObjectWithTag("Player");
         aiPatrol = GetComponent<AIPatrol>();
         aiAttack = GetComponentInChildren<AIAttack>();
@@ -25,9 +28,18 @@ public class AIChase : MonoBehaviour
         {
             if (!inRange)
             {
-                Vector2 rayDir = (new Vector2(player.transform.position.x, player.transform.position.y) -
+                Vector2 moveDir = (new Vector2(player.transform.position.x, player.transform.position.y) -
                 new Vector2(transform.position.x, transform.position.y)).normalized;
-                transform.position += new Vector3(rayDir.x, rayDir.y, 0f) * chaseSpeed * Time.deltaTime;
+                transform.position += new Vector3(moveDir.x, moveDir.y, 0f) * chaseSpeed * Time.deltaTime;
+
+                if (moveDir.x > 0)
+                {
+                    transform.localScale = oriScale;
+                }
+                else
+                {
+                    transform.localScale = new Vector3(-oriScale.x, oriScale.y, oriScale.z);
+                }
             }
 
             distToPlayer = (new Vector2(player.transform.position.x, player.transform.position.y) -

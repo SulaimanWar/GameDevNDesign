@@ -183,8 +183,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chaseSpeed: 8
-  inRange: 0
-  moving: 0
 --- !u!95 &2381671512585391304
 Animator:
   serializedVersion: 3
