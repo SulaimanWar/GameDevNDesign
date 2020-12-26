@@ -29,15 +29,23 @@ public class Projectile : MonoBehaviour
         {
             return;
         }
-
-        if(rayHit.collider.tag == "Enemy")
+        if ((rayHit.transform.position - transform.position).magnitude < 3f)
         {
-            if((rayHit.transform.position - transform.position).magnitude < 3f)
+            switch (rayHit.collider.tag)
             {
-                AIHealth aiHealth = rayHit.collider.GetComponent<AIHealth>();
-                aiHealth.Damage(damage);
-                Destroy(gameObject);
+                case "Enemy":
+                    AIHealth aiHealth = rayHit.collider.GetComponent<AIHealth>();
+                    aiHealth.Damage(damage);
+                    Destroy(gameObject);
+                    break;
+
+                case "Destructible":
+                    Destructible destructible = rayHit.collider.GetComponent<Destructible>();
+                    destructible.TakeDamage(damage);
+                    Destroy(gameObject);
+                    break;
             }
+
         }
 
     }
