@@ -34,7 +34,6 @@ public class WeaponObject : MonoBehaviour
     public GameObject reticlePrefab;
     Vector2 rayDir;
 
-
     private void Start()
     {
        // playerTransform = transform;
@@ -66,6 +65,16 @@ public class WeaponObject : MonoBehaviour
         if (Input.GetKeyDown(weaponDKeycode))
         {
             SetData(3);
+        }
+
+        if(transform.localEulerAngles.z > 90f || transform.localEulerAngles.z < 270f)
+        {
+            transform.localScale = new Vector3(1f, -1f, 1f);
+        }
+
+        if(transform.localEulerAngles.z < 89f || transform.localEulerAngles.z > 271f)
+        {
+            transform.localScale = new Vector3(1f, 1f, 1f);
         }
         #endregion
 
