@@ -1,13 +1,7 @@
 fileFormatVersion: 2
-guid: af2ff50c1d145b24a9ffe20420d5e7e1
+guid: 5e7580515406ef64697f7a781fe3bf93
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -8772725464405869353
-    second: "angel-_\u5929\u4F7F_4(_angel_4)_\u7231\u7ED9\u7F51_aigei_com_0"
-  - first:
-      213: 8963000481030530711
-    second: "angel-_\u5929\u4F7F_4(_angel_4)_\u7231\u7ED9\u7F51_aigei_com_1"
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -37,7 +31,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -46,12 +40,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 15
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -91,49 +85,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: "angel-_\u5929\u4F7F_4(_angel_4)_\u7231\u7ED9\u7F51_aigei_com_0"
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 7
-        width: 46
-        height: 47
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7dc70168ba4014680800000000000000
-      internalID: -8772725464405869353
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "angel-_\u5929\u4F7F_4(_angel_4)_\u7231\u7ED9\u7F51_aigei_com_1"
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 7
-        width: 46
-        height: 47
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 796ea711379f26c70800000000000000
-      internalID: 8963000481030530711
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
