@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class WeaponObject : MonoBehaviour
 {
+    public Transform bulletSpawnPoint;
     [SerializeField] SpriteRenderer spriteRenderer;
     GameObject projectileBase;
 
@@ -32,7 +33,6 @@ public class WeaponObject : MonoBehaviour
     private Vector3 reticlePosition;
     public GameObject reticlePrefab;
     Vector2 rayDir;
-
 
     private void Start()
     {
@@ -65,6 +65,16 @@ public class WeaponObject : MonoBehaviour
         if (Input.GetKeyDown(weaponDKeycode))
         {
             SetData(3);
+        }
+
+        if(transform.localEulerAngles.z > 90f || transform.localEulerAngles.z < 270f)
+        {
+            transform.localScale = new Vector3(1f, -1f, 1f);
+        }
+
+        if(transform.localEulerAngles.z < 89f || transform.localEulerAngles.z > 271f)
+        {
+            transform.localScale = new Vector3(1f, 1f, 1f);
         }
         #endregion
 
@@ -148,7 +158,7 @@ public class WeaponObject : MonoBehaviour
 
     void Shoot()
     {
-        GameObject spawnedProjectile = Instantiate(projectileBase, transform);
+        GameObject spawnedProjectile = Instantiate(projectileBase, bulletSpawnPoint);
         spawnedProjectile.transform.localPosition = Vector3.zero;
         float angle = Mathf.Atan2(mousePosition.y, mousePosition.x) * Mathf.Rad2Deg;
         spawnedProjectile.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90f));

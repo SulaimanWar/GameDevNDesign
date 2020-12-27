@@ -1,18 +1,10 @@
 fileFormatVersion: 2
 <<<<<<< HEAD:Assets/Scenes/level2_BACKUP_182.unity.meta
-<<<<<<< HEAD
-guid: d0135c909c5b87d47a85d92bac054a67
+guid: 4bcd56f28832c8444a589e155bbbe1a3
 =======
 guid: a0c06b3aeb67f17459887a80c5dbf43d
 folderAsset: yes
 >>>>>>> fddf82fa6c22cdd699a2e9f082a7b0be953e858e:Assets/Prefabs/Boss.meta
-=======
-guid: 3ba9bd6387540a845abdd7096098d95d
-=======
-guid: a0c06b3aeb67f17459887a80c5dbf43d
-folderAsset: yes
->>>>>>> 623d4f6fb2a94de06a37dc0f1f776e28fcdb7bad:Assets/Prefabs/Boss.meta
->>>>>>> fddf82fa6c22cdd699a2e9f082a7b0be953e858e
 DefaultImporter:
   externalObjects: {}
   userData: 
