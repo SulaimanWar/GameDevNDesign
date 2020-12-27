@@ -4,6 +4,7 @@
 public class WeaponData : ScriptableObject
 {
     public Sprite weaponSprite;
+    public string weaponPrefKey;
 
     [Space(10)]
 
