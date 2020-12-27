@@ -5,7 +5,7 @@ public class Pickup : MonoBehaviour
 
     public enum PickupType
     {
-        INVENTORY
+        WEAPON, INVENTORY
     }
     public PickupType pickupType;
 

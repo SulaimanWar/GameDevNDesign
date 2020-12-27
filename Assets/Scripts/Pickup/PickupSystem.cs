@@ -56,15 +56,9 @@ public class PickupSystem : MonoBehaviour
                 {
                     case Pickup.PickupType.INVENTORY:
                         SetKey(pickup);
-                        Destroy(pickup.gameObject);
                         break;
                 }
             }
-        }
-
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            PlayerPrefs.DeleteAll();
         }
     }
 
