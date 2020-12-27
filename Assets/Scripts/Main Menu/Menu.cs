@@ -12,6 +12,16 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+    public void LoadLevel()
+    {
+        string curLevel = PlayerPrefs.GetString("CurLevel");
+        if(curLevel == "")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        SceneManager.LoadScene(curLevel);
+    }
+
     public void QuitGame()
     {
         Application.Quit();

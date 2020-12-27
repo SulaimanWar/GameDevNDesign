@@ -5,7 +5,7 @@ public class AIProjectile : MonoBehaviour
     public AIProjectileData projectileData;
     float lifetime;
 
-    private void Start()
+    public void Setup()
     {
         lifetime = Time.time + 4f;
     }
@@ -13,9 +13,6 @@ public class AIProjectile : MonoBehaviour
     private void Update()
     {
         transform.position += transform.up * projectileData.speed * Time.deltaTime;
-        if(Time.time > lifetime)
-        {
-            Destroy(gameObject);
-        }
+        //RaycastHit2D rayHit = 
     }
 }
