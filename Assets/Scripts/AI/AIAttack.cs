@@ -43,6 +43,5 @@ public class AIAttack : MonoBehaviour
         spawnedProjectile.transform.parent = null;
 
         AIProjectile aiProjectile = spawnedProjectile.GetComponent<AIProjectile>();
-        aiProjectile.Setup();
     }
 }

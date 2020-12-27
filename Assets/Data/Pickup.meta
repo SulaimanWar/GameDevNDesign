@@ -1,14 +1,10 @@
 fileFormatVersion: 2
 <<<<<<< HEAD:Assets/Scenes/level2.unity.meta
-guid: 2cda990e2423bbf4892e6590ba056729
+guid: 6e88e1b3dd08ed849923307b46c547bc
 =======
 guid: 48e5477be74242d41890f2a9d4555d17
 folderAsset: yes
-<<<<<<< HEAD
 >>>>>>> fddf82fa6c22cdd699a2e9f082a7b0be953e858e:Assets/Data/Pickup.meta
-=======
->>>>>>> 623d4f6fb2a94de06a37dc0f1f776e28fcdb7bad:Assets/Data/Pickup.meta
->>>>>>> fddf82fa6c22cdd699a2e9f082a7b0be953e858e
 DefaultImporter:
   externalObjects: {}
   userData: 
