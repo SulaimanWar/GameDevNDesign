@@ -1,5 +1,16 @@
 fileFormatVersion: 2
 guid: 2cda990e2423bbf4892e6590ba056729
+<<<<<<< HEAD
+=======
+=======
+guid: 48e5477be74242d41890f2a9d4555d17
+folderAsset: yes
+<<<<<<< HEAD
+>>>>>>> fddf82fa6c22cdd699a2e9f082a7b0be953e858e:Assets/Data/Pickup.meta
+=======
+>>>>>>> 623d4f6fb2a94de06a37dc0f1f776e28fcdb7bad:Assets/Data/Pickup.meta
+>>>>>>> fddf82fa6c22cdd699a2e9f082a7b0be953e858e
+>>>>>>> 0a978a6f83d37f621ef0691c01782bbf43edd301
 DefaultImporter:
   externalObjects: {}
   userData: 
