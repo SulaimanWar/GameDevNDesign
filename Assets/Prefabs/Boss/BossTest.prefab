@@ -251,7 +251,7 @@ MonoBehaviour:
   shootInterval: 0.75
   projectile: {fileID: 1280408852233158750, guid: e8550a06d5a00c745b273dacfb64ce3a,
     type: 3}
-  spiral: 0
+  spiral: 1
   spawnGrp: {fileID: 3017310401756787675}
   rotateSpeed: 30
 --- !u!114 &8258484366685448282
