@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8317916363589270709}
   - component: {fileID: 3097407216002011399}
+  - component: {fileID: 8474506753087384727}
   m_Layer: 0
   m_Name: "\u73D0\u7405\u9999\u7089"
   m_TagString: Untagged
@@ -67,8 +68,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1319410261
+  m_SortingLayer: -3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: fb5cd320fa8ace1468fe11e48b36c11b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -81,3 +82,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &8474506753087384727
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2830738920650587024}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -1.451407, y: -1.4806719}
+  - {x: -1.0323572, y: -2.077054}
+  - {x: -0.020635754, y: -2.3021824}
+  - {x: 1.0699857, y: -2.0300794}
+  - {x: 1.5350295, y: -1.5351152}
+  - {x: 1.1463925, y: -0.92682266}
+  - {x: 0.059234142, y: -0.58245945}
+  - {x: -1.0303266, y: -0.8145008}
+  - {x: -1.4688077, y: -1.5012369}
