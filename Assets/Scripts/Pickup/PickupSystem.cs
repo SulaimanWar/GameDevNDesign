@@ -52,12 +52,7 @@ public class PickupSystem : MonoBehaviour
             {
                 Pickup pickup = rayHit.collider.GetComponent<Pickup>();
 
-                switch (pickup.pickupType)
-                {
-                    case Pickup.PickupType.INVENTORY:
-                        SetKey(pickup);
-                        break;
-                }
+                SetKey(pickup);
             }
         }
     }

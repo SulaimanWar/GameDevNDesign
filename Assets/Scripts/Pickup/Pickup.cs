@@ -2,13 +2,6 @@
 
 public class Pickup : MonoBehaviour
 {
-
-    public enum PickupType
-    {
-        WEAPON, INVENTORY
-    }
-    public PickupType pickupType;
-
     public enum KeyType
     {
         FLOAT, INT, STRING

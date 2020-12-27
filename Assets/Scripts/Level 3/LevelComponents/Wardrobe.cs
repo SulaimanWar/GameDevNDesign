@@ -51,12 +51,8 @@ public class Wardrobe : MonoBehaviour
     private GameObject SelectReward()
     {
         int randomRewardIndex = Random.Range(0, rewards.Length);
-        for (int i = 0; i < rewards.Length; i++)
-        {
-            return rewards[randomRewardIndex];
-        }
 
-        return null;
+        return rewards[randomRewardIndex];
     }
     
     private void OnTriggerEnter2D(Collider2D other)
