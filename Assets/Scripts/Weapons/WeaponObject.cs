@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class WeaponObject : MonoBehaviour
 {
+    public Transform bulletSpawnPoint;
     [SerializeField] SpriteRenderer spriteRenderer;
     GameObject projectileBase;
 
@@ -148,7 +149,7 @@ public class WeaponObject : MonoBehaviour
 
     void Shoot()
     {
-        GameObject spawnedProjectile = Instantiate(projectileBase, transform);
+        GameObject spawnedProjectile = Instantiate(projectileBase, bulletSpawnPoint);
         spawnedProjectile.transform.localPosition = Vector3.zero;
         float angle = Mathf.Atan2(mousePosition.y, mousePosition.x) * Mathf.Rad2Deg;
         spawnedProjectile.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90f));
