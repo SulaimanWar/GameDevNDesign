@@ -16,6 +16,18 @@ public class BossAttack : MonoBehaviour
     public bool spiral;
     public Transform spawnGrp;
     public float rotateSpeed = 4f;
+    GameObject playerGO;
+    public float attackRange = 10f;
+
+    [Space(15)]
+
+    public DialogueData deathDialogue;
+    public GameObject activeTargetGO;
+
+    private void Start()
+    {
+        playerGO = GameObject.FindGameObjectWithTag("Player");
+    }
 
     private void Update()
     {
@@ -31,6 +43,16 @@ public class BossAttack : MonoBehaviour
             {
                 spawnGrp.transform.Rotate(new Vector3(0f, 0f, rotateSpeed * Time.deltaTime));
             }
+        }
+
+        float distToPlayer = (playerGO.transform.position - transform.position).magnitude;
+        if(distToPlayer < attackRange)
+        {
+            shooting = true;
+        }
+        else
+        {
+            shooting = false;
         }
     }
 
@@ -50,5 +72,23 @@ public class BossAttack : MonoBehaviour
             spawnedProjectile.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90f));
             spawnedProjectile.transform.parent = null;
         }
+    }
+
+    public void Die()
+    {
+        if(deathDialogue != null)
+        {
+            GameObject newDialogue = new GameObject("BossDeathDialogue");
+            if(activeTargetGO != null)
+            {
+                ActionObject actionObj = newDialogue.AddComponent<ActionObject>();
+                actionObj.activeActionTarget = activeTargetGO;
+            }
+            DialogueObject dialogueObj = newDialogue.AddComponent<DialogueObject>();
+            dialogueObj.dialogueData = deathDialogue;
+            dialogueObj.StartConversation();
+        }
+        
+        Destroy(gameObject);
     }
 }
