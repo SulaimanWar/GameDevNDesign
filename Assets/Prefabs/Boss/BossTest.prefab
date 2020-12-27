@@ -247,13 +247,13 @@ MonoBehaviour:
   - {fileID: 3885413679291225460}
   - {fileID: 2100452100736293803}
   - {fileID: 1581081807372464592}
-  shooting: 0
+  shooting: 1
   shootInterval: 0.75
   projectile: {fileID: 1280408852233158750, guid: e8550a06d5a00c745b273dacfb64ce3a,
     type: 3}
   spiral: 0
   spawnGrp: {fileID: 3017310401756787675}
-  rotateSpeed: 4
+  rotateSpeed: 30
 --- !u!114 &8258484366685448282
 MonoBehaviour:
   m_ObjectHideFlags: 0
