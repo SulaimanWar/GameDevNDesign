@@ -1,6 +1,14 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Prefabs/Boss.meta
 guid: a0c06b3aeb67f17459887a80c5dbf43d
 folderAsset: yes
+========
+<<<<<<< HEAD
+guid: 1177c5158436f4748b84aec615ca4c9d
+=======
+guid: ad11fa02c802c1d4f8cf6dc122c31f80
+>>>>>>> fddf82fa6c22cdd699a2e9f082a7b0be953e858e
+>>>>>>>> d72d55c1f082f9f1d7e23aac8a3d667b5c5c7902:Assets/Scenes/level2_LOCAL_182.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
