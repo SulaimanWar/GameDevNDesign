@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 
@@ -12,6 +13,11 @@ public class DoorEnter : MonoBehaviour
 
     private bool isDoor;
     private Transform playerTransform;
+
+    [Space(20)]
+
+    public string levelToLoad;
+    public bool loadLevel;
 
     
 
@@ -39,6 +45,11 @@ public class DoorEnter : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        if (loadLevel)
+        {
+            SceneManager.LoadScene(levelToLoad);
+        }
+
         if(other.gameObject.CompareTag("Player")
             &&other.GetType().ToString() == "UnityEngine.CapsuleCollider2D")
         {
