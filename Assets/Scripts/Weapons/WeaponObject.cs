@@ -94,6 +94,14 @@ public class WeaponObject : MonoBehaviour
 
     void SetData(int weaponIndex)
     {
+        if(weaponIndex != 0)
+        {
+            if(PlayerPrefs.GetInt(weaponDatas[weaponIndex].weaponPrefKey) != 1)
+            {
+                return;
+            }
+        }
+
         if(weaponIndex > weaponDatas.Length - 1)
         {
             return;
