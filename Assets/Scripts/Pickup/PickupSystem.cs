@@ -61,6 +61,11 @@ public class PickupSystem : MonoBehaviour
                 }
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            PlayerPrefs.DeleteAll();
+        }
     }
 
     Vector2 GetDirection()
