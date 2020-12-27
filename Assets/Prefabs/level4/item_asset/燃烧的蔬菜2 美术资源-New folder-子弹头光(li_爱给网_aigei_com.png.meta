@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: ca17161ee20736d4282c05c6c94bfd61
+guid: cdb63e5d73553054b986241b1050ed35
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7861307389763321081
-    second: particlel_0
+      213: -5196096065938409667
+    second: "\u71C3\u70E7\u7684\u852C\u83DC2 \u7F8E\u672F\u8D44\u6E90-New folder-\u5B50\u5F39\u5934\u5149(li_\u7231\u7ED9\u7F51_aigei_com_0"
+  - first:
+      213: -5262952866632714771
+    second: "\u71C3\u70E7\u7684\u852C\u83DC2 \u7F8E\u672F\u8D44\u6E90-New folder-\u5B50\u5F39\u5934\u5149(li_\u7231\u7ED9\u7F51_aigei_com_1"
+  - first:
+      213: -5168143761422760462
+    second: "\u71C3\u70E7\u7684\u852C\u83DC2 \u7F8E\u672F\u8D44\u6E90-New folder-\u5B50\u5F39\u5934\u5149(li_\u7231\u7ED9\u7F51_aigei_com_2"
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -34,12 +40,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
-    wrapV: -1
-    wrapW: -1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -48,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 120
+  spritePixelsToUnits: 250
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -60,7 +66,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -86,53 +92,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
-  - serializedVersion: 3
-    buildTarget: Tizen
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: particlel_0
+      name: "\u71C3\u70E7\u7684\u852C\u83DC2 \u7F8E\u672F\u8D44\u6E90-New folder-\u5B50\u5F39\u5934\u5149(li_\u7231\u7ED9\u7F51_aigei_com_0"
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 39
-        height: 40
+        width: 180
+        height: 179
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +110,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 703010b749607e290800000000000000
-      internalID: -7861307389763321081
+      spriteID: d37bfea7822c3e7b0800000000000000
+      internalID: -5196096065938409667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u71C3\u70E7\u7684\u852C\u83DC2 \u7F8E\u672F\u8D44\u6E90-New folder-\u5B50\u5F39\u5934\u5149(li_\u7231\u7ED9\u7F51_aigei_com_1"
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 180
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5bbba804c36f6b0800000000000000
+      internalID: -5262952866632714771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u71C3\u70E7\u7684\u852C\u83DC2 \u7F8E\u672F\u8D44\u6E90-New folder-\u5B50\u5F39\u5934\u5149(li_\u7231\u7ED9\u7F51_aigei_com_2"
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 180
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5ce3881a01748b0800000000000000
+      internalID: -5168143761422760462
       vertices: []
       indices: 
       edges: []
