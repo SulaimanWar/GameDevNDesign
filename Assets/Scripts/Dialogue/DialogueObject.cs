@@ -8,7 +8,7 @@ public class DialogueObject : MonoBehaviour
 
     GameObject playerGO;
     DialogueSystem dialogueSystem;
-    int curLine = 0;
+    [SerializeField]int curLine = 0;
     bool choiceButton;
     
     ActionObject[] actionObjects;

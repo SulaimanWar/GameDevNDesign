@@ -69,17 +69,12 @@ public class DialogueButton : MonoBehaviour
         Passcode passcode = curPasscodeInput.GetComponent<Passcode>();
         string input = passcode.GetInput();
 
-        Debug.Log("Input:" + input);
-        Debug.Log("a:" + actionData.passcode);
-
         if(input.Contains(actionData.passcode))
         {
-            Debug.Log("True");
             dialogueObject.SelectDialogue(actionData.passDialogueData);
         }
         else
         {
-            Debug.Log("False");
             dialogueObject.SelectDialogue(actionData.failDialogueData);
         }
     }

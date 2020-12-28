@@ -101,6 +101,7 @@ public class PlayerHealth : MonoBehaviour
                 break;
 
             case "EnemyProjectile":
+                print("Being damaged");
                 AIProjectile aiProjectile = col.GetComponent<AIProjectile>();
                 ModifyShield(-aiProjectile.projectileData.damage);
 

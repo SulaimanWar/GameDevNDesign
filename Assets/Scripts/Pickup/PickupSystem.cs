@@ -52,6 +52,8 @@ public class PickupSystem : MonoBehaviour
             {
                 Pickup pickup = rayHit.collider.GetComponent<Pickup>();
 
+                Debug.DrawLine(transform.position, rayHit.point, Color.green, 2f);
+
                 SetKey(pickup);
                 Destroy(pickup.gameObject);
             }

@@ -1,3 +1,2474 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:51e049c078b99f16712cc150598ff2ca1543e5ea234f28048f43b742d9dcf35b
-size 2082
+fileFormatVersion: 2
+guid: 0d408394a2ae17e489499497a3aa3800
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6975047228913301593
+    second: floortiles_0
+  - first:
+      213: -2490653528951578952
+    second: floortiles_1
+  - first:
+      213: 1266180996935110719
+    second: floortiles_2
+  - first:
+      213: -173887665285735555
+    second: floortiles_3
+  - first:
+      213: -6107439386896197964
+    second: floortiles_4
+  - first:
+      213: 7417946584538261656
+    second: floortiles_5
+  - first:
+      213: 1363515060920788910
+    second: floortiles_6
+  - first:
+      213: 8913559448090881976
+    second: floortiles_7
+  - first:
+      213: 1768179580281622194
+    second: floortiles_8
+  - first:
+      213: -8303680668176519356
+    second: floortiles_9
+  - first:
+      213: -7252654856233017133
+    second: floortiles_10
+  - first:
+      213: 4475028495451177613
+    second: floortiles_11
+  - first:
+      213: -8038388839859946340
+    second: floortiles_12
+  - first:
+      213: 8537670151401102425
+    second: floortiles_13
+  - first:
+      213: -8307445487360013642
+    second: floortiles_14
+  - first:
+      213: -6457550322093701262
+    second: floortiles_15
+  - first:
+      213: 6813981729429782320
+    second: floortiles_16
+  - first:
+      213: -8265192860008104786
+    second: floortiles_17
+  - first:
+      213: -854273510096437670
+    second: floortiles_18
+  - first:
+      213: -1464461168599152891
+    second: floortiles_19
+  - first:
+      213: 1378263682876480153
+    second: floortiles_20
+  - first:
+      213: -4158710919001912008
+    second: floortiles_21
+  - first:
+      213: -6051828034124268591
+    second: floortiles_22
+  - first:
+      213: -7735110428887642574
+    second: floortiles_23
+  - first:
+      213: 4754397338191600985
+    second: floortiles_24
+  - first:
+      213: -1230341590577877623
+    second: floortiles_25
+  - first:
+      213: 1405884545690514295
+    second: floortiles_26
+  - first:
+      213: 8846267556125165910
+    second: floortiles_27
+  - first:
+      213: -5028899121376285030
+    second: floortiles_28
+  - first:
+      213: -8487802766146638535
+    second: floortiles_29
+  - first:
+      213: 8945975355854704749
+    second: floortiles_30
+  - first:
+      213: -3519431864846564506
+    second: floortiles_31
+  - first:
+      213: -7402228381034645718
+    second: floortiles_32
+  - first:
+      213: 2097162240588934822
+    second: floortiles_33
+  - first:
+      213: -2600741515705752074
+    second: floortiles_34
+  - first:
+      213: -6912432343480116611
+    second: floortiles_35
+  - first:
+      213: -5505661578818819904
+    second: floortiles_36
+  - first:
+      213: 3707611751907243851
+    second: floortiles_37
+  - first:
+      213: 4066436910862300650
+    second: floortiles_38
+  - first:
+      213: -6455070168344117503
+    second: floortiles_39
+  - first:
+      213: -7194280063887295224
+    second: floortiles_40
+  - first:
+      213: -5849172448224052620
+    second: floortiles_41
+  - first:
+      213: -5719978991369459764
+    second: floortiles_42
+  - first:
+      213: -5445290880315595230
+    second: floortiles_43
+  - first:
+      213: -7118794606571642901
+    second: floortiles_44
+  - first:
+      213: 7124044665293170650
+    second: floortiles_45
+  - first:
+      213: -7495590341005990772
+    second: floortiles_46
+  - first:
+      213: 3926640610925719015
+    second: floortiles_47
+  - first:
+      213: -1105568479913976519
+    second: floortiles_48
+  - first:
+      213: -10644874594939949
+    second: floortiles_49
+  - first:
+      213: 2488659068503568590
+    second: floortiles_50
+  - first:
+      213: 6391217819757363948
+    second: floortiles_51
+  - first:
+      213: 2756331798289409740
+    second: floortiles_52
+  - first:
+      213: -3468686597091481903
+    second: floortiles_53
+  - first:
+      213: -3258146329455064591
+    second: floortiles_54
+  - first:
+      213: -1351011345308522027
+    second: floortiles_55
+  - first:
+      213: -5459926423785890823
+    second: floortiles_56
+  - first:
+      213: 5180700156938456798
+    second: floortiles_57
+  - first:
+      213: 4628107553662457
+    second: floortiles_58
+  - first:
+      213: 5163248989682871559
+    second: floortiles_59
+  - first:
+      213: 6577545450046680229
+    second: floortiles_60
+  - first:
+      213: 3908866149965618484
+    second: floortiles_61
+  - first:
+      213: 4524697169435523059
+    second: floortiles_62
+  - first:
+      213: 2496340105072438545
+    second: floortiles_63
+  - first:
+      213: -202087642541138850
+    second: floortiles_64
+  - first:
+      213: 3559996946243910298
+    second: floortiles_65
+  - first:
+      213: -8411004330439372898
+    second: floortiles_66
+  - first:
+      213: 2141560455649470926
+    second: floortiles_67
+  - first:
+      213: -7740637984311498359
+    second: floortiles_68
+  - first:
+      213: -613484198973595626
+    second: floortiles_69
+  - first:
+      213: -3942106831008843370
+    second: floortiles_70
+  - first:
+      213: 9080107112937426193
+    second: floortiles_71
+  - first:
+      213: -2805631747858195055
+    second: floortiles_72
+  - first:
+      213: 1192928596419813914
+    second: floortiles_73
+  - first:
+      213: -9173574301316372615
+    second: floortiles_74
+  - first:
+      213: 5376264746816175994
+    second: floortiles_75
+  - first:
+      213: -3955920025848935811
+    second: floortiles_76
+  - first:
+      213: 8354228029275484161
+    second: floortiles_77
+  - first:
+      213: 8957426805507989068
+    second: floortiles_78
+  - first:
+      213: 700671076016540072
+    second: floortiles_79
+  - first:
+      213: 8562749223083759402
+    second: floortiles_80
+  - first:
+      213: -3806475878204465705
+    second: floortiles_81
+  - first:
+      213: -7922450330276107091
+    second: floortiles_82
+  - first:
+      213: -7853143948600403211
+    second: floortiles_83
+  - first:
+      213: 8936013907119537271
+    second: floortiles_84
+  - first:
+      213: 8200338396412705981
+    second: floortiles_85
+  - first:
+      213: 4892206278034576094
+    second: floortiles_86
+  - first:
+      213: -1885038114582005296
+    second: floortiles_87
+  - first:
+      213: 1031418223185291549
+    second: floortiles_88
+  - first:
+      213: -1893157486756110122
+    second: floortiles_89
+  - first:
+      213: -8432769027198130781
+    second: floortiles_90
+  - first:
+      213: -7309418937256953163
+    second: floortiles_91
+  - first:
+      213: 6857647908851176151
+    second: floortiles_92
+  - first:
+      213: 4491621146703961857
+    second: floortiles_93
+  - first:
+      213: -2764303270539689658
+    second: floortiles_94
+  - first:
+      213: 6583072272973551642
+    second: floortiles_95
+  - first:
+      213: -5978187600564610276
+    second: floortiles_96
+  - first:
+      213: -2300539972691507403
+    second: floortiles_97
+  - first:
+      213: -2492837511934716466
+    second: floortiles_98
+  - first:
+      213: 7558703073687311190
+    second: floortiles_99
+  - first:
+      213: -435516448706883507
+    second: floortiles_100
+  - first:
+      213: -2557662662031854093
+    second: floortiles_101
+  - first:
+      213: -3923192824322919875
+    second: floortiles_102
+  - first:
+      213: 5347852521167195552
+    second: floortiles_103
+  - first:
+      213: 2374758382215834997
+    second: floortiles_104
+  - first:
+      213: -5395378865764260345
+    second: floortiles_105
+  - first:
+      213: -289113929385392477
+    second: floortiles_106
+  - first:
+      213: 899423059548367421
+    second: floortiles_107
+  - first:
+      213: 7507830230812756734
+    second: floortiles_108
+  - first:
+      213: -7605625702382861424
+    second: floortiles_109
+  - first:
+      213: 1286221003375396303
+    second: floortiles_110
+  - first:
+      213: -4373946933086887232
+    second: floortiles_111
+  - first:
+      213: 7824907407593660455
+    second: floortiles_112
+  - first:
+      213: 1880193745517388001
+    second: floortiles_113
+  - first:
+      213: 4349492148458130135
+    second: floortiles_114
+  - first:
+      213: -4448751919477956109
+    second: floortiles_115
+  - first:
+      213: 8196034691195202395
+    second: floortiles_116
+  - first:
+      213: 3921768061637868167
+    second: floortiles_117
+  - first:
+      213: 7141536796870338559
+    second: floortiles_118
+  - first:
+      213: -725897039991016059
+    second: floortiles_119
+  - first:
+      213: 1607746689066954078
+    second: floortiles_120
+  - first:
+      213: 2435488281234963830
+    second: floortiles_121
+  - first:
+      213: 5651191660020697944
+    second: floortiles_122
+  - first:
+      213: -133260265748613148
+    second: floortiles_123
+  - first:
+      213: 7125542019758311970
+    second: floortiles_124
+  - first:
+      213: -5769778319372789284
+    second: floortiles_125
+  - first:
+      213: 6560729887353365222
+    second: floortiles_126
+  - first:
+      213: 7031243232833238892
+    second: floortiles_127
+  - first:
+      213: 7275159648261063166
+    second: floortiles_128
+  - first:
+      213: 6414375853591016737
+    second: floortiles_129
+  - first:
+      213: 6517617245244347493
+    second: floortiles_130
+  - first:
+      213: -5008646305223394752
+    second: floortiles_131
+  - first:
+      213: 6582809773406014333
+    second: floortiles_132
+  - first:
+      213: 4949534646652880691
+    second: floortiles_133
+  - first:
+      213: -3637991427530213722
+    second: floortiles_134
+  - first:
+      213: 5340834532206273010
+    second: floortiles_135
+  - first:
+      213: 2831607338565116753
+    second: floortiles_136
+  - first:
+      213: -4207650491438512209
+    second: floortiles_137
+  - first:
+      213: -2485827620827764675
+    second: floortiles_138
+  - first:
+      213: 8377751816562928830
+    second: floortiles_139
+  - first:
+      213: 2873019602639192206
+    second: floortiles_140
+  - first:
+      213: -8786017786847556305
+    second: floortiles_141
+  - first:
+      213: -7439860552043814912
+    second: floortiles_142
+  - first:
+      213: -3973514183341073350
+    second: floortiles_143
+  - first:
+      213: 6451403614767705148
+    second: floortiles_144
+  - first:
+      213: 5445048710166953970
+    second: floortiles_145
+  - first:
+      213: -4558858301744188251
+    second: floortiles_146
+  - first:
+      213: 970453581764310667
+    second: floortiles_147
+  - first:
+      213: 2547867400029565810
+    second: floortiles_148
+  - first:
+      213: 4330147942554134372
+    second: floortiles_149
+  - first:
+      213: -3714514711189595494
+    second: floortiles_150
+  - first:
+      213: -7599638563388320917
+    second: floortiles_151
+  - first:
+      213: 6644072151890790298
+    second: floortiles_152
+  - first:
+      213: 147563398388950022
+    second: floortiles_153
+  - first:
+      213: 2313369255805887816
+    second: floortiles_154
+  - first:
+      213: -8939895142798617683
+    second: floortiles_155
+  - first:
+      213: 1674988520360134747
+    second: floortiles_156
+  - first:
+      213: -5194440871072216017
+    second: floortiles_157
+  - first:
+      213: 1143681863360308658
+    second: floortiles_158
+  - first:
+      213: 7219871412274499927
+    second: floortiles_159
+  - first:
+      213: 2383319879323945571
+    second: floortiles_160
+  - first:
+      213: 4069709145576334160
+    second: floortiles_161
+  - first:
+      213: -8686105111695615467
+    second: floortiles_162
+  - first:
+      213: -2925890162950866861
+    second: floortiles_163
+  - first:
+      213: 8069952666472150666
+    second: floortiles_164
+  - first:
+      213: 4653922311120744717
+    second: floortiles_165
+  - first:
+      213: 6118067762732548368
+    second: floortiles_166
+  - first:
+      213: -691133453171930636
+    second: floortiles_167
+  - first:
+      213: -5255894225836604685
+    second: floortiles_168
+  - first:
+      213: -5808817650979501567
+    second: floortiles_169
+  - first:
+      213: 4374585593618445173
+    second: floortiles_170
+  - first:
+      213: 7621451353104761564
+    second: floortiles_171
+  - first:
+      213: 2885357431164947567
+    second: floortiles_172
+  - first:
+      213: -2297444965063003518
+    second: floortiles_173
+  - first:
+      213: 3876098601409099148
+    second: floortiles_174
+  - first:
+      213: -2420639843434461835
+    second: floortiles_175
+  - first:
+      213: -517436185800405289
+    second: floortiles_176
+  - first:
+      213: 1813331079540925517
+    second: floortiles_177
+  - first:
+      213: 2177485606980866749
+    second: floortiles_178
+  - first:
+      213: -8177972402716102718
+    second: floortiles_179
+  - first:
+      213: 6670309583851660564
+    second: floortiles_180
+  - first:
+      213: -9035916581720160034
+    second: floortiles_181
+  - first:
+      213: -606689313134276932
+    second: floortiles_182
+  - first:
+      213: 7900343228250671776
+    second: floortiles_183
+  - first:
+      213: 5159412517509041461
+    second: floortiles_184
+  - first:
+      213: -7330495646170873955
+    second: floortiles_185
+  - first:
+      213: -9159646428399974667
+    second: floortiles_186
+  - first:
+      213: -387686259328614971
+    second: floortiles_187
+  - first:
+      213: 4836875093124354518
+    second: floortiles_188
+  - first:
+      213: 7922682432457516412
+    second: floortiles_189
+  - first:
+      213: -1930294226783185190
+    second: floortiles_190
+  - first:
+      213: 2392779221583207565
+    second: floortiles_191
+  - first:
+      213: 3194816280159901661
+    second: floortiles_192
+  - first:
+      213: -3698247599231301852
+    second: floortiles_193
+  - first:
+      213: -8668727347571798233
+    second: floortiles_194
+  - first:
+      213: -7238035983045492044
+    second: floortiles_195
+  - first:
+      213: 3543306587063299729
+    second: floortiles_196
+  - first:
+      213: -8115591155699228673
+    second: floortiles_197
+  - first:
+      213: 5913566716452019162
+    second: floortiles_198
+  - first:
+      213: -5099134275848097228
+    second: floortiles_199
+  - first:
+      213: 8117109730958822384
+    second: floortiles_200
+  - first:
+      213: 6721990050399342761
+    second: floortiles_201
+  - first:
+      213: -1741913922827469871
+    second: floortiles_202
+  - first:
+      213: -3654177629899617699
+    second: floortiles_203
+  - first:
+      213: 4858373343560256067
+    second: floortiles_204
+  - first:
+      213: -2170633890530964094
+    second: floortiles_205
+  - first:
+      213: -4607119820641975170
+    second: floortiles_206
+  - first:
+      213: -2045038869645771859
+    second: floortiles_207
+  - first:
+      213: -970011072061306017
+    second: floortiles_208
+  - first:
+      213: 7091005681270113326
+    second: floortiles_209
+  - first:
+      213: -5411168705436091848
+    second: floortiles_210
+  - first:
+      213: 5143824344585702963
+    second: floortiles_211
+  - first:
+      213: 175463844330428309
+    second: floortiles_212
+  - first:
+      213: -8933734168634970950
+    second: floortiles_213
+  - first:
+      213: 5255781433920154166
+    second: floortiles_214
+  - first:
+      213: -1085992759040665084
+    second: floortiles_215
+  - first:
+      213: 7246846102056317359
+    second: floortiles_216
+  - first:
+      213: -518901868814608812
+    second: floortiles_217
+  - first:
+      213: -2666206217369710603
+    second: floortiles_218
+  - first:
+      213: -887584525091838878
+    second: floortiles_219
+  - first:
+      213: 7129445571203117803
+    second: floortiles_220
+  - first:
+      213: 4766033895020158691
+    second: floortiles_221
+  - first:
+      213: 1600230577660248460
+    second: floortiles_222
+  - first:
+      213: -6410630560678544410
+    second: floortiles_223
+  - first:
+      213: 1141760621566931470
+    second: floortiles_224
+  - first:
+      213: -3771996315805360340
+    second: floortiles_225
+  - first:
+      213: 6409848193111833851
+    second: floortiles_226
+  - first:
+      213: -4151746330132659226
+    second: floortiles_227
+  - first:
+      213: 590681981714305234
+    second: floortiles_228
+  - first:
+      213: -7993445622488885771
+    second: floortiles_229
+  - first:
+      213: 6608816585024837987
+    second: floortiles_230
+  - first:
+      213: 1839330478077322144
+    second: floortiles_231
+  - first:
+      213: -4518842884862013122
+    second: floortiles_232
+  - first:
+      213: 4474857400150487912
+    second: floortiles_233
+  - first:
+      213: -7497575904904359554
+    second: floortiles_234
+  - first:
+      213: -3239577448483190130
+    second: floortiles_235
+  - first:
+      213: -8736209317960782503
+    second: floortiles_236
+  - first:
+      213: -415604068507646771
+    second: floortiles_237
+  - first:
+      213: -2129106410633224448
+    second: floortiles_238
+  - first:
+      213: -7079452619378751921
+    second: floortiles_239
+  - first:
+      213: -2142067553508369779
+    second: floortiles_240
+  - first:
+      213: -209255328440317294
+    second: floortiles_241
+  - first:
+      213: 4631453398404510669
+    second: floortiles_242
+  - first:
+      213: 2964001473726621310
+    second: floortiles_243
+  - first:
+      213: 1617617460548434198
+    second: floortiles_244
+  - first:
+      213: -2089541910208598879
+    second: floortiles_245
+  - first:
+      213: 7420784958333437835
+    second: floortiles_246
+  - first:
+      213: -1574380570088790719
+    second: floortiles_247
+  - first:
+      213: 2048983720392421698
+    second: floortiles_248
+  - first:
+      213: -1604713695330601706
+    second: floortiles_249
+  - first:
+      213: -8145261637435631001
+    second: floortiles_250
+  - first:
+      213: -3033697933609741939
+    second: floortiles_251
+  - first:
+      213: -9198279734138895161
+    second: floortiles_252
+  - first:
+      213: 3380388836036308573
+    second: floortiles_253
+  - first:
+      213: 7991221214104420478
+    second: floortiles_254
+  - first:
+      213: -1274715474401692
+    second: floortiles_255
+  - first:
+      213: -2306371592698477194
+    second: floortiles_256
+  - first:
+      213: 8820991961324674522
+    second: floortiles_257
+  - first:
+      213: -421998101893655071
+    second: floortiles_258
+  - first:
+      213: -1352379790197415069
+    second: floortiles_259
+  - first:
+      213: -6515006144892432315
+    second: floortiles_260
+  - first:
+      213: 2987116337431856919
+    second: floortiles_261
+  - first:
+      213: 8236680094569208459
+    second: floortiles_262
+  - first:
+      213: -6182409638797248032
+    second: floortiles_263
+  - first:
+      213: -6684507523830808037
+    second: floortiles_264
+  - first:
+      213: -4318533474092826049
+    second: floortiles_265
+  - first:
+      213: -6722275949089976696
+    second: floortiles_266
+  - first:
+      213: -9018695006183614448
+    second: floortiles_267
+  - first:
+      213: 7039491117639021936
+    second: floortiles_268
+  - first:
+      213: 6576000329862895474
+    second: floortiles_269
+  - first:
+      213: -7296453190079650829
+    second: floortiles_270
+  - first:
+      213: 1229486569192290367
+    second: floortiles_271
+  - first:
+      213: -4477406835549988724
+    second: floortiles_272
+  - first:
+      213: 3314679746017486404
+    second: floortiles_273
+  - first:
+      213: -2308638178031245316
+    second: floortiles_274
+  - first:
+      213: 4265714915245300203
+    second: floortiles_275
+  - first:
+      213: 4632723662853386228
+    second: floortiles_276
+  - first:
+      213: -4002549891653098209
+    second: floortiles_277
+  - first:
+      213: -8185333242650380675
+    second: floortiles_278
+  - first:
+      213: 5339104291904886296
+    second: floortiles_279
+  - first:
+      213: 1648789585229262793
+    second: floortiles_280
+  - first:
+      213: -6188396811727020824
+    second: floortiles_281
+  - first:
+      213: -2266148727333480645
+    second: floortiles_282
+  - first:
+      213: 128745565498686631
+    second: floortiles_283
+  - first:
+      213: 5872704477223093823
+    second: floortiles_284
+  - first:
+      213: -7940844568932776570
+    second: floortiles_285
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: floortiles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7cc0d2087a33f90800000000000000
+      internalID: -6975047228913301593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be944cbfcb6f6dd0800000000000000
+      internalID: -2490653528951578952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30daaf78e0629110800000000000000
+      internalID: 1266180996935110719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b52d7f61a369df0800000000000000
+      internalID: -173887665285735555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b692d87c340e3ba0800000000000000
+      internalID: -6107439386896197964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898a93edd17d1f660800000000000000
+      internalID: 7417946584538261656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7241449bd2ce210800000000000000
+      internalID: 1363515060920788910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfa8cb871353bb70800000000000000
+      internalID: 8913559448090881976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be09c5c5f5d98810800000000000000
+      internalID: 1768179580281622194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f6f055d6663cc80800000000000000
+      internalID: -8303680668176519356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d028bf95d4695b90800000000000000
+      internalID: -7252654856233017133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d824e17f4be7a1e30800000000000000
+      internalID: 4475028495451177613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cfea970f7e17090800000000000000
+      internalID: -8038388839859946340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95cd7b7a4c5eb7670800000000000000
+      internalID: 8537670151401102425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba0cfe085606bc80800000000000000
+      internalID: -8307445487360013642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2774564123c2266a0800000000000000
+      internalID: -6457550322093701262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ff9a8e740209e50800000000000000
+      internalID: 6813981729429782320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac3f1b72e22c4d80800000000000000
+      internalID: -8265192860008104786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5efca9c4c20524f0800000000000000
+      internalID: -854273510096437670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5074b4283503dabe0800000000000000
+      internalID: -1464461168599152891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a9ca86483902310800000000000000
+      internalID: 1378263682876480153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d4a55f37a4946c0800000000000000
+      internalID: -4158710919001912008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbb5488776930ca0800000000000000
+      internalID: -6051828034124268591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e8bbb1c0e57a490800000000000000
+      internalID: -7735110428887642574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d19ff60330bf140800000000000000
+      internalID: 4754397338191600985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_25
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d673d87d2fceee0800000000000000
+      internalID: -1230341590577877623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773381dab84b28310800000000000000
+      internalID: 1405884545690514295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65947e6097144ca70800000000000000
+      internalID: 8846267556125165910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_28
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ea713b4e2c53ab0800000000000000
+      internalID: -5028899121376285030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d6040ca54453a80800000000000000
+      internalID: -8487802766146638535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d605e17303d762c70800000000000000
+      internalID: 8945975355854704749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66341ac9d57782fc0800000000000000
+      internalID: -3519431864846564506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a277d129180064990800000000000000
+      internalID: -7402228381034645718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae6aa252fd9a1d10800000000000000
+      internalID: 2097162240588934822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_34
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f56fbbee5f48ebd0800000000000000
+      internalID: -2600741515705752074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_35
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a52f0486b1210a0800000000000000
+      internalID: -6912432343480116611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8ecfcd6f5f793b0800000000000000
+      internalID: -5505661578818819904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47be7d9e35147330800000000000000
+      internalID: 3707611751907243851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5fb7553d2ee6830800000000000000
+      internalID: 4066436910862300650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fb0afd1ebfa66a0800000000000000
+      internalID: -6455070168344117503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80db2591668c82c90800000000000000
+      internalID: -7194280063887295224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_41
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a7a9906a093dea0800000000000000
+      internalID: -5849172448224052620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7e9b0c96d8e90b0800000000000000
+      internalID: -5719978991369459764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_43
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2266d147bc07e64b0800000000000000
+      internalID: -5445290880315595230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef9456b506f43d90800000000000000
+      internalID: -7118794606571642901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7e0d6d0e0bdd260800000000000000
+      internalID: 7124044665293170650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_46
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c842d765c405af790800000000000000
+      internalID: -7495590341005990772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_47
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eda9d6d4da3e7630800000000000000
+      internalID: 3926640610925719015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_48
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ddbd7335b38a0f0800000000000000
+      internalID: -1105568479913976519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_49
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db071ffa8e2adff0800000000000000
+      internalID: -10644874594939949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_50
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0b531cc3e798220800000000000000
+      internalID: 2488659068503568590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2c8c4beba22b850800000000000000
+      internalID: 6391217819757363948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_52
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc66728ba25704620800000000000000
+      internalID: 2756331798289409740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_53
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d62437faefbcdfc0800000000000000
+      internalID: -3468686597091481903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9869efc2db8c2d0800000000000000
+      internalID: -3258146329455064591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_55
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9ec53e65e304de0800000000000000
+      internalID: -1351011345308522027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_56
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb197278d17a34b0800000000000000
+      internalID: -5459926423785890823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_57
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede802e185b85e740800000000000000
+      internalID: 5180700156938456798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_58
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5e7b24d31701000800000000000000
+      internalID: 4628107553662457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_59
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d21fc999b87a740800000000000000
+      internalID: 5163248989682871559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_60
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ace40cccb2284b50800000000000000
+      internalID: 6577545450046680229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_61
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ddf37ad051f3630800000000000000
+      internalID: 3908866149965618484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f77b6c4a14face30800000000000000
+      internalID: 4524697169435523059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d67617918c4a220800000000000000
+      internalID: 2496340105072438545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_64
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5cd6dc1c5a023df0800000000000000
+      internalID: -202087642541138850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_65
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9af7566c56a76130800000000000000
+      internalID: 3559996946243910298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f83e7ff1c164b80800000000000000
+      internalID: -8411004330439372898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_67
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9a20053e958bd10800000000000000
+      internalID: 2141560455649470926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_68
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989a732d3cab39490800000000000000
+      internalID: -7740637984311498359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_69
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6102dd41f577c77f0800000000000000
+      internalID: -613484198973595626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_70
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699b31f29b2da49c0800000000000000
+      internalID: -3942106831008843370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floortiles_71
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d022d8f45030e70800000000000000
+      internalID: 9080107112937426193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

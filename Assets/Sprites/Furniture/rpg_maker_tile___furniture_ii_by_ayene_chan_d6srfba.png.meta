@@ -1,3 +1,824 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5ade5c0112e7da83be57a6ff71ff68487aa43047ac5de8a399d0befa52b6b167
-size 2082
+fileFormatVersion: 2
+guid: a57ebfafa7e7ba04e932223ada595756
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7747241571814511710
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_0
+  - first:
+      213: 264368954687814688
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_1
+  - first:
+      213: -6636257887946330465
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_2
+  - first:
+      213: -5052979131687293061
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_3
+  - first:
+      213: 4814205591117073717
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_4
+  - first:
+      213: -3103857961962223230
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_5
+  - first:
+      213: -492621768210169949
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_6
+  - first:
+      213: 6779800370888314091
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_7
+  - first:
+      213: 4349443197458829663
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_8
+  - first:
+      213: -8939402368798379715
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_9
+  - first:
+      213: 2660811568528905279
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_10
+  - first:
+      213: -2952895925136401691
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_11
+  - first:
+      213: 7161255686746385439
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_12
+  - first:
+      213: 4043378524895570216
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_13
+  - first:
+      213: -9020746413208199765
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_14
+  - first:
+      213: -3637317746389168759
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_15
+  - first:
+      213: 3026755564404506341
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_16
+  - first:
+      213: -3513687921109998577
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_17
+  - first:
+      213: -6858362697763008239
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_18
+  - first:
+      213: -949266318961285078
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_19
+  - first:
+      213: -7841145340016791545
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_20
+  - first:
+      213: 5372868286282996567
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_21
+  - first:
+      213: -1630625723704583192
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_22
+  - first:
+      213: 8379432452887904595
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_23
+  - first:
+      213: 5483296018645642130
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_24
+  - first:
+      213: 6427765036235401097
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_25
+  - first:
+      213: 47004859999585405
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_26
+  - first:
+      213: 8985079183091070585
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_27
+  - first:
+      213: 2073571579736323124
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_28
+  - first:
+      213: -7708234868729172309
+    second: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab6bda46d44c7490800000000000000
+      internalID: -7747241571814511710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cfec1e92a3ba300800000000000000
+      internalID: 264368954687814688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e231f7c9647e3a0800000000000000
+      internalID: -6636257887946330465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 129
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f2156604630e9b0800000000000000
+      internalID: -5052979131687293061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 129
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d8b367a7e7fc240800000000000000
+      internalID: 4814205591117073717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_5
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 129
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28949f7e0a1ece4d0800000000000000
+      internalID: -3103857961962223230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af3531ac1bd929f0800000000000000
+      internalID: -492621768210169949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_7
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 0
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec0cd23480b61e50800000000000000
+      internalID: 6779800370888314091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_8
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51d5433b835c5c30800000000000000
+      internalID: 4349443197458829663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_9
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31bc7798ecd0f380800000000000000
+      internalID: -8939402368798379715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_10
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f345a64260a1de420800000000000000
+      internalID: 2660811568528905279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_11
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 31
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eadb8b1dc43507d0800000000000000
+      internalID: -2952895925136401691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_12
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ca34aea14e16360800000000000000
+      internalID: 7161255686746385439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829e7dc7857fc1830800000000000000
+      internalID: 4043378524895570216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad98df5eeedfc280800000000000000
+      internalID: -9020746413208199765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98dcf3fe7c6a58dc0800000000000000
+      internalID: -3637317746389168759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee744e3622310a20800000000000000
+      internalID: 3026755564404506341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0468aab37fdc3fc0800000000000000
+      internalID: -3513687921109998577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 31
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111db0ba67332d0a0800000000000000
+      internalID: -6858362697763008239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_19
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 64
+        width: 32
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28e115ff4783d2f0800000000000000
+      internalID: -949266318961285078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_20
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 129
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700f6108bd7ae2390800000000000000
+      internalID: -7841145340016791545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_21
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 64
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b1cdc5d33409a40800000000000000
+      internalID: 5372868286282996567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_22
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 129
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb59f03b8ade59e0800000000000000
+      internalID: -1630625723704583192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35183c57b69b94470800000000000000
+      internalID: 8379432452887904595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 129
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29befad5da4981c40800000000000000
+      internalID: 5483296018645642130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_25
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 64
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987ac74ae32043950800000000000000
+      internalID: 6427765036235401097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_26
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 128
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d740efecbaef6a000800000000000000
+      internalID: 47004859999585405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_27
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 128
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97676ea79e961bc70800000000000000
+      internalID: 8985079183091070585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_28
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 64
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43477829d5ec6cc10800000000000000
+      internalID: 2073571579736323124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rpg_maker_tile___furniture_ii_by_ayene_chan_d6srfba_29
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 64
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae2e141a39d60590800000000000000
+      internalID: -7708234868729172309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
