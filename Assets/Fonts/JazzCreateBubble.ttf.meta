@@ -1,22 +1,3 @@
-fileFormatVersion: 2
-guid: 58b647c5b2ec4184e9a07a561cdf0644
-TrueTypeFontImporter:
-  externalObjects: {}
-  serializedVersion: 4
-  fontSize: 100
-  forceTextureCase: -2
-  characterSpacing: 0
-  characterPadding: 1
-  includeFontData: 1
-  fontName: JazzCreateBubble
-  fontNames:
-  - JazzCreateBubble
-  fallbackFontReferences: []
-  customCharacters: 
-  fontRenderingMode: 0
-  ascentCalculationMode: 1
-  useLegacyBoundsCalculation: 0
-  shouldRoundAdvanceValue: 1
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:333cd3ac2a6c0b5958d28dfea66cedc0b3121333bc60a371cb9dfd56ee96be93
+size 533
