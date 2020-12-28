@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 fileFormatVersion: 2
 guid: c7fc78e82ec0e4f8d94421658d7e9d69
 TextureImporter:
@@ -102,3 +103,8 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:3671037d127a3bc6305f70ea2a6f7dc1fa6f285863089d71e0cf4034c3ebd241
+size 2516
+>>>>>>> Level3

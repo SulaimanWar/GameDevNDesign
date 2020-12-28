@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: b03055200f74ed84ea9fa5e77ee0afcf
+=======
+<<<<<<< HEAD:Assets/Data/Action/Level 2/DoorBlocker.meta
+guid: 0eacfee0f7c98af48a7c682394a356b1
+=======
+guid: b03055200f74ed84ea9fa5e77ee0afcf
+>>>>>>> Level3:Assets/Sprites/Retro Pixel Bosses.meta
+>>>>>>> Level3
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

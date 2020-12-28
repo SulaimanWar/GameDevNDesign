@@ -1,8 +1,18 @@
+<<<<<<< HEAD
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Data/Action/Level 2/DoorBlocker.meta
 guid: 0eacfee0f7c98af48a7c682394a356b1
+=======
+guid: b03055200f74ed84ea9fa5e77ee0afcf
+>>>>>>> Level3:Assets/Sprites/Retro Pixel Bosses.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:1dd695ee4cd452b1948715e09c7d11e8a56383c21d70c63bf3573045ff1fba9c
+size 180
+>>>>>>> Level3

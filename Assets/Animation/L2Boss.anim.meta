@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 fileFormatVersion: 2
 guid: f6bd1a34fad4ab14ba052f42747ee81a
 NativeFormatImporter:
@@ -6,3 +7,8 @@ NativeFormatImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:9610b7a4e0356fb4570f5e33c0a9613afef79ccaef9a95a52ab81d954ca931ed
+size 190
+>>>>>>> Level3

@@ -10,8 +10,8 @@ public class DialogueObject : MonoBehaviour
     DialogueSystem dialogueSystem;
     int curLine = 0;
     bool choiceButton;
-
-    ActionObject actionObject;
+    
+    ActionObject[] actionObjects;
 
     DialogueData oriDialogue;
     bool dialogueMode;
@@ -22,10 +22,7 @@ public class DialogueObject : MonoBehaviour
         dialogueSystem = playerGO.GetComponentInChildren<DialogueSystem>();
         oriDialogue = dialogueData;
 
-        if(GetComponent<ActionObject>() != null)
-        {
-            actionObject = GetComponent<ActionObject>();
-        }
+        actionObjects = GetComponents<ActionObject>();
     }
 
     private void Update()
@@ -109,6 +106,12 @@ public class DialogueObject : MonoBehaviour
 
     public void DoAction(ActionData actionData)
     {
-        actionObject.DoAction(actionData);
+        if(actionObjects.Length > 0)
+        {
+            foreach(ActionObject actionObj in actionObjects)
+            {
+                actionObj.DoAction(actionData);
+            }
+        }
     }
 }

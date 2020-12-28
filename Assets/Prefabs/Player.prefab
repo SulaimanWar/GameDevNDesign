@@ -1476,6 +1476,7 @@ MonoBehaviour:
   maxShield: 100
   shieldSlider: {fileID: 18595413}
   healthSlider: {fileID: 1631662221}
+  deathUI: {fileID: 6061900061337391607, guid: acd29ef7fafc3424bb32591c89962997, type: 3}
 --- !u!114 &3458110927257839468
 MonoBehaviour:
   m_ObjectHideFlags: 0
