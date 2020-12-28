@@ -19,7 +19,7 @@ public class WeaponObject : MonoBehaviour
     private GameObject reticle;
 
     private Vector3 direction;
-    private Vector3 mousePosition;
+    private Vector3 mousePosition = Vector3.zero;
     private Vector3 reticlePosition;
     public GameObject reticlePrefab;
     Vector2 rayDir;
@@ -59,33 +59,28 @@ public class WeaponObject : MonoBehaviour
         }
         #endregion
 
-        if(curWeaponData == weaponDatas[0])
+        #region Reticle
+
+        GetMousePosition();
+        MoveReticle();
+
+        #endregion
+
+        #region RAYCAST
+        rayDir = (new Vector2(mousePosition.x, mousePosition.y) - new Vector2(transform.position.x, transform.position.y)).normalized;
+
+        if (Input.GetMouseButtonDown(0))
         {
-
-            #region Reticle
-
-            GetMousePosition();
-            MoveReticle();
-
-            #endregion
-
-            #region RAYCAST
-            rayDir = (new Vector2(mousePosition.x, mousePosition.y) - new Vector2(transform.position.x, transform.position.y)).normalized;
-
-            if (Input.GetMouseButtonDown(0))
+            if (curWeaponData.ranged)
             {
-                if (curWeaponData.ranged)
-                {
-                    Shoot();
-                }
-                else
-                {
-                    Melee();
-                }
+                Shoot();
             }
-                #endregion
-
+            else
+            {
+                Melee();
+            }
         }
+            #endregion
     }
 
 
