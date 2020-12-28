@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
@@ -35,7 +33,7 @@ public class DoorEnter : MonoBehaviour
     }
     void EnterDoor()
     {
-        if (isDoor)
+        if (isDoor && TargetDoor != null)
         {
             playerTransform.position = TargetDoor.position;
             CameraController.instance.ChangeRoom(minX, maxX, minY, maxY);
@@ -45,14 +43,15 @@ public class DoorEnter : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (loadLevel)
-        {
-            SceneManager.LoadScene(levelToLoad);
-        }
+        
 
         if(other.gameObject.CompareTag("Player")
             &&other.GetType().ToString() == "UnityEngine.CapsuleCollider2D")
         {
+            if (loadLevel)
+            {
+                SceneManager.LoadScene(levelToLoad);
+            }
             isDoor = true;
             
         }

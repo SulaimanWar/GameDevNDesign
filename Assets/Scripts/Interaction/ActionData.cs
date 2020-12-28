@@ -24,6 +24,7 @@ public class ActionData : ScriptableObject
 
     [Header("ACTIVE")]
     public DialogueData nextDialogue;
+    public string lookForString;
 
     [Space(15)]
 
