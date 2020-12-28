@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 4189450174762271539}
   - component: {fileID: 769797208421808210}
   - component: {fileID: 3338465825792725691}
+  - component: {fileID: 7286833182118947479}
   - component: {fileID: -2352841294380889561}
   - component: {fileID: -6898880764078956348}
   - component: {fileID: 5224597876189383622}
-  - component: {fileID: 8129784915560037160}
   m_Layer: 0
   m_Name: Wardrobe
   m_TagString: Untagged
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1076194543
-  m_SortingLayer: -5
+  m_SortingLayer: -4
   m_SortingOrder: 0
   m_Sprite: {fileID: -2712268415149190716, guid: 008df8a61ea67274d82ed94af1dd2667,
     type: 3}
@@ -107,6 +107,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7286833182118947479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218124842187956155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cdea0294bc4e0540ae56c813cfb13ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xPosition: 0
+  yPosition: 0
+  rewards:
+  - {fileID: 2478892094678950496, guid: 57fd65abce9193c40bb3f1ad8062a5dc, type: 3}
+  - {fileID: 3138464921158638129, guid: 45233d485bec6ec4086447b10ae4a7c1, type: 3}
 --- !u!50 &-2352841294380889561
 Rigidbody2D:
   serializedVersion: 4
@@ -159,21 +176,6 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!114 &8129784915560037160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 218124842187956155}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 564e76531d5adfb4b8e8aa1f307f73a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  xPosition: 0
-  yPosition: 0
-  rewards: []
 --- !u!1 &8351809484607727357
 GameObject:
   m_ObjectHideFlags: 0
