@@ -939,7 +939,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &8843405303530732902
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1115,8 +1115,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 65
-  m_fontSizeBase: 65
+  m_fontSize: 72
+  m_fontSizeBase: 72
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1476,6 +1476,7 @@ MonoBehaviour:
   maxShield: 100
   shieldSlider: {fileID: 18595413}
   healthSlider: {fileID: 1631662221}
+  deathUI: {fileID: 6061900061337391607, guid: acd29ef7fafc3424bb32591c89962997, type: 3}
 --- !u!114 &3458110927257839468
 MonoBehaviour:
   m_ObjectHideFlags: 0

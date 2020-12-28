@@ -10,6 +10,8 @@ public class PlayerHealth : MonoBehaviour
 
     [SerializeField] Slider shieldSlider;
     [SerializeField] Slider healthSlider;
+    
+    public GameObject deathUI;
 
 
     private void Start()
@@ -20,6 +22,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void Die()
     {
+        Instantiate(deathUI);
         Destroy(gameObject);
     }
 
@@ -49,12 +52,15 @@ public class PlayerHealth : MonoBehaviour
 
     //This is a public function to update our shield amount
     //Maybe by drinking potion or getting attacked
-    public void ModifyShield(int modifyAmount, bool shieldOnly)
+    public void ModifyShield(int modifyAmount)
     {
         //If damage received is more than the shield amount, transfer that damage into health
-        if(modifyAmount > curShield && !shieldOnly)
+        if(curShield < 0)
         {
-            ModifyHealth(curShield - modifyAmount);
+            if(modifyAmount < 1)
+            {
+                ModifyHealth(modifyAmount);
+            }
         }
 
         curShield += modifyAmount;
@@ -89,14 +95,14 @@ public class PlayerHealth : MonoBehaviour
                 HealthPickup healthPickup = col.GetComponent<HealthPickup>();
 
                 ModifyHealth(healthPickup.healthBoost);
-                ModifyShield(healthPickup.shieldBoost, true);
+                ModifyShield(healthPickup.shieldBoost);
 
                 Destroy(col.gameObject);
                 break;
 
             case "EnemyProjectile":
                 AIProjectile aiProjectile = col.GetComponent<AIProjectile>();
-                ModifyShield(-aiProjectile.projectileData.damage, false);
+                ModifyShield(-aiProjectile.projectileData.damage);
 
                 Destroy(aiProjectile.gameObject);
                 break;
@@ -114,7 +120,7 @@ public class PlayerHealth : MonoBehaviour
                 {
                     if(Time.time > trap.nextDamageTime)
                     {
-                        ModifyShield(-trap.damageAmount, false);
+                        ModifyShield(-trap.damageAmount);
                         trap.damagedPlayer = true;
 
                         trap.nextDamageTime = Time.time + trap.damageInterval;
