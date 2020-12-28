@@ -4,6 +4,7 @@ public class AIHealth : MonoBehaviour
 {
     public int maxHealth = 50;
     int curHealth;
+    public GameObject[] deathSpawns;
 
     private void Start()
     {
@@ -27,6 +28,14 @@ public class AIHealth : MonoBehaviour
 
     void Die()
     {
+        if (deathSpawns.Length > 0)
+        {
+            foreach (GameObject curDeathSpawnGO in deathSpawns)
+            {
+                GameObject spawnedDeathSpawn = Instantiate(curDeathSpawnGO);
+                spawnedDeathSpawn.transform.position = transform.position;
+            }
+        }
         Destroy(gameObject);
     }
 

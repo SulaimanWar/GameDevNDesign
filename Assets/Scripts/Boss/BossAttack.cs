@@ -23,6 +23,7 @@ public class BossAttack : MonoBehaviour
 
     public DialogueData deathDialogue;
     public GameObject activeTargetGO;
+    public GameObject[] deathSpawns;
 
     private void Start()
     {
@@ -87,6 +88,15 @@ public class BossAttack : MonoBehaviour
             DialogueObject dialogueObj = newDialogue.AddComponent<DialogueObject>();
             dialogueObj.dialogueData = deathDialogue;
             dialogueObj.StartConversation();
+        }
+
+        if(deathSpawns.Length > 0)
+        {
+            foreach(GameObject curDeathSpawnGO in deathSpawns)
+            {
+                GameObject spawnedDeathSpawn = Instantiate(curDeathSpawnGO);
+                spawnedDeathSpawn.transform.position = transform.position;
+            }
         }
         
         Destroy(gameObject);
