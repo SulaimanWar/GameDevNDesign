@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-fileFormatVersion: 2
-guid: 71c6f501f60a8d04aa752af32f522d42
-folderAsset: yes
-DefaultImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-=======
 version https://git-lfs.github.com/spec/v1
-oid sha256:10b740fd444efaf44ee189f25c9e0fe9fc63a749fe34857b06772a8124d6872c
-size 180
->>>>>>> Level3
+oid sha256:13e4c05c7b1d904322843884cb226a86d40c0ebc27cb22e031a27565f0ec45f6
+size 172
