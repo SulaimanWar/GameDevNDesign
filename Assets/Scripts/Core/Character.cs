@@ -10,6 +10,15 @@ public class Character : MonoBehaviour
 
     [SerializeField] private CharacterTypes characterType;
 
+    #if UNITY_EDITOR
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            PlayerPrefs.DeleteAll();
+        }
+    }
+    #endif
 
     private void OnTriggerEnter2D(Collider2D col)
     {

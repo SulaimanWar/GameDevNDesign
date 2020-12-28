@@ -3,12 +3,6 @@
 public class Pickup : MonoBehaviour
 {
 
-    public enum PickupType
-    {
-        INVENTORY
-    }
-    public PickupType pickupType;
-
     public enum KeyType
     {
         FLOAT, INT, STRING

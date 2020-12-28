@@ -15,15 +15,6 @@ public class WeaponObject : MonoBehaviour
     KeyCode weaponCKeycode = KeyCode.Alpha3;
     KeyCode weaponDKeycode = KeyCode.Alpha4;
 
-    /*
-    enum Direction
-    {
-        LEFT, UP, RIGHT, DOWN
-    }
-    Direction dirEnum;
-    Transform playerTransform;
-    */
-
     private Camera mainCamera;
     private GameObject reticle;
 
@@ -68,29 +59,36 @@ public class WeaponObject : MonoBehaviour
         }
         #endregion
 
-        #region Reticle
-
-        GetMousePosition();
-        MoveReticle();
-
-        #endregion
-
-        #region RAYCAST
-        rayDir = (new Vector2(mousePosition.x, mousePosition.y) - new Vector2(transform.position.x, transform.position.y)).normalized;
-
-        if (Input.GetMouseButtonDown(0))
+        if(curWeaponData == weaponDatas[0])
         {
-            if (curWeaponData.ranged)
+
+            #region Reticle
+
+            GetMousePosition();
+            MoveReticle();
+
+            #endregion
+
+            #region RAYCAST
+            rayDir = (new Vector2(mousePosition.x, mousePosition.y) - new Vector2(transform.position.x, transform.position.y)).normalized;
+
+            if (Input.GetMouseButtonDown(0))
             {
-                Shoot();
+                if (curWeaponData.ranged)
+                {
+                    Shoot();
+                }
+                else
+                {
+                    Melee();
+                }
             }
-            else
-            {
-                Melee();
-            }
+                #endregion
+
         }
-        #endregion
     }
+
+
 
     void SetData(int weaponIndex)
     {
