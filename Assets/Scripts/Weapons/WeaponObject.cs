@@ -110,7 +110,7 @@ public class WeaponObject : MonoBehaviour
         {
             if(PlayerPrefs.GetInt(weaponDatas[weaponIndex].weaponPrefKey) != 1)
             {
-               // return;
+                return;
             }
         }
 
