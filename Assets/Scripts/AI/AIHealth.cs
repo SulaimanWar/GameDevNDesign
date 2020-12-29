@@ -17,7 +17,6 @@ public class AIHealth : MonoBehaviour
 
         if(curHealth < 1)
         {
-            print("DEATH");
             if(GetComponent<BossAttack>() != null)
             {
                 GetComponent<BossAttack>().Die();

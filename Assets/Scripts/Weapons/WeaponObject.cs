@@ -16,6 +16,7 @@ public class WeaponObject : MonoBehaviour
     KeyCode weaponDKeycode = KeyCode.Alpha4;
     KeyCode weaponEKeycode = KeyCode.Alpha5;
     KeyCode weaponFKeycode = KeyCode.Alpha6;
+    KeyCode weaponGKeycode = KeyCode.Alpha7;
 
     private Camera mainCamera;
     private GameObject reticle;
@@ -69,6 +70,11 @@ public class WeaponObject : MonoBehaviour
         if (Input.GetKeyDown(weaponFKeycode))
         {
             SetData(5);
+        }
+
+        if (Input.GetKeyDown(weaponGKeycode))
+        {
+            SetData(6);
         }
         #endregion
 
@@ -155,7 +161,7 @@ public class WeaponObject : MonoBehaviour
 
     void Melee()
     {
-        RaycastHit2D rayHit = Physics2D.Raycast(transform.position, rayDir * 5f);
+        RaycastHit2D rayHit = Physics2D.Raycast(transform.position, rayDir * 2f);
         if(rayHit.collider.tag == "Enemy")
         {
             AIHealth aiHealth = rayHit.collider.GetComponent<AIHealth>();
