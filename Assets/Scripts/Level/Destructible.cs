@@ -17,11 +17,18 @@ public class Destructible : MonoBehaviour
 
     void DestroyDestructible()
     {
-        GameObject spawnedSpawnable = Instantiate(spawnableObject);
-        spawnedSpawnable.transform.position = transform.position;
+        if(spawnableObject != null)
+        {
+            GameObject spawnedSpawnable = Instantiate(spawnableObject);
+            spawnedSpawnable.transform.position = transform.position;
+        }
 
-        GameObject spawnedDebris = Instantiate(debrisPrefab);
-        spawnedDebris.transform.position = transform.position - transform.up;
+        if (debrisPrefab != null)
+        {
+            GameObject spawnedDebris = Instantiate(debrisPrefab);
+            spawnedDebris.transform.position = transform.position - transform.up;
+        }
+        
         Destroy(gameObject);
     }
 }
