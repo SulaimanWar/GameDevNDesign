@@ -14,6 +14,8 @@ public class WeaponObject : MonoBehaviour
     KeyCode weaponBKeycode = KeyCode.Alpha2;
     KeyCode weaponCKeycode = KeyCode.Alpha3;
     KeyCode weaponDKeycode = KeyCode.Alpha4;
+    KeyCode weaponEKeycode = KeyCode.Alpha5;
+    KeyCode weaponFKeycode = KeyCode.Alpha6;
 
     private Camera mainCamera;
     private GameObject reticle;
@@ -57,6 +59,16 @@ public class WeaponObject : MonoBehaviour
         if (Input.GetKeyDown(weaponDKeycode))
         {
             SetData(3);
+        }
+
+        if (Input.GetKeyDown(weaponEKeycode))
+        {
+            SetData(4);
+        }
+
+        if (Input.GetKeyDown(weaponFKeycode))
+        {
+            SetData(5);
         }
         #endregion
 
