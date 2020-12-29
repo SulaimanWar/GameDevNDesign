@@ -70,7 +70,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1661572725
   m_SortingLayer: -2
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -98,6 +98,5 @@ MonoBehaviour:
   weaponDatas:
   - {fileID: 11400000, guid: 5a09a860c9b1f2f41a978f2cf8f492c2, type: 2}
   - {fileID: 11400000, guid: e02c108ef443f4d478d4020c027b2525, type: 2}
-  - {fileID: 11400000, guid: a68ee32489d980f43afe0797637acc23, type: 2}
   reticlePrefab: {fileID: 6128543464222406324, guid: aaee138644d69a24abf06a3e46ea0eb6,
     type: 3}

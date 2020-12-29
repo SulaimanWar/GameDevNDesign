@@ -25,7 +25,6 @@ public class BossMove : MonoBehaviour
             Vector2 moveDir = (curPoint - new Vector2(transform.position.x, transform.position.y));
 
             //FLIP
-            print(moveDir.x);
             if(moveDir.x < 0f)
             {
                 transform.localScale = new Vector3(-oriScale.x, oriScale.y, oriScale.z);

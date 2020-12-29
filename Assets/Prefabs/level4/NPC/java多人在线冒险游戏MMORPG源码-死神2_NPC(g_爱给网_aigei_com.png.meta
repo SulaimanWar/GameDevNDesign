@@ -1,7 +1,37 @@
 fileFormatVersion: 2
-guid: 715325776b136df4ab440be1e1501cf2
+guid: d6926856ec00a94428e34591ad438373
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5827360985362969054
+    second: "java\u591A\u4EBA\u5728\u7EBF\u5192\u9669\u6E38\u620FMMORPG\u6E90\u7801-\u6B7B\u795E2_NPC(g_\u7231\u7ED9\u7F51_aigei_com_0"
+  - first:
+      213: -3159752388939091279
+    second: "java\u591A\u4EBA\u5728\u7EBF\u5192\u9669\u6E38\u620FMMORPG\u6E90\u7801-\u6B7B\u795E2_NPC(g_\u7231\u7ED9\u7F51_aigei_com_1"
+  - first:
+      213: -8190681627409972540
+    second: "java\u591A\u4EBA\u5728\u7EBF\u5192\u9669\u6E38\u620FMMORPG\u6E90\u7801-\u6B7B\u795E2_NPC(g_\u7231\u7ED9\u7F51_aigei_com_2"
+  - first:
+      213: 4935681648839285350
+    second: "java\u591A\u4EBA\u5728\u7EBF\u5192\u9669\u6E38\u620FMMORPG\u6E90\u7801-\u6B7B\u795E2_NPC(g_\u7231\u7ED9\u7F51_aigei_com_3"
+  - first:
+      213: -5968694857304191821
+    second: "java\u591A\u4EBA\u5728\u7EBF\u5192\u9669\u6E38\u620FMMORPG\u6E90\u7801-\u6B7B\u795E2_NPC(g_\u7231\u7ED9\u7F51_aigei_com_4"
+  - first:
+      213: -7397326762668635553
+    second: "java\u591A\u4EBA\u5728\u7EBF\u5192\u9669\u6E38\u620FMMORPG\u6E90\u7801-\u6B7B\u795E2_NPC(g_\u7231\u7ED9\u7F51_aigei_com_5"
+  - first:
+      213: -4929363242372435236
+    second: "java\u591A\u4EBA\u5728\u7EBF\u5192\u9669\u6E38\u620FMMORPG\u6E90\u7801-\u6B7B\u795E2_NPC(g_\u7231\u7ED9\u7F51_aigei_com_6"
+  - first:
+      213: 7300476521553271599
+    second: "java\u591A\u4EBA\u5728\u7EBF\u5192\u9669\u6E38\u620FMMORPG\u6E90\u7801-\u6B7B\u795E2_NPC(g_\u7231\u7ED9\u7F51_aigei_com_7"
+  - first:
+      213: 4653233960777036798
+    second: "java\u591A\u4EBA\u5728\u7EBF\u5192\u9669\u6E38\u620FMMORPG\u6E90\u7801-\u6B7B\u795E2_NPC(g_\u7231\u7ED9\u7F51_aigei_com_8"
+  - first:
+      213: -2849103387214132391
+    second: "java\u591A\u4EBA\u5728\u7EBF\u5192\u9669\u6E38\u620FMMORPG\u6E90\u7801-\u6B7B\u795E2_NPC(g_\u7231\u7ED9\u7F51_aigei_com_9"
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -31,7 +61,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,12 +70,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 15
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -71,9 +101,84 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "java\u591A\u4EBA\u5728\u7EBF\u5192\u9669\u6E38\u620FMMORPG\u6E90\u7801-\u6B7B\u795E2_NPC(g_\u7231\u7ED9\u7F51_aigei_com_5"
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 64
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a45a7808a675990800000000000000
+      internalID: -7397326762668635553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "java\u591A\u4EBA\u5728\u7EBF\u5192\u9669\u6E38\u620FMMORPG\u6E90\u7801-\u6B7B\u795E2_NPC(g_\u7231\u7ED9\u7F51_aigei_com_6"
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 64
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2f5897f32679bb0800000000000000
+      internalID: -4929363242372435236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "java\u591A\u4EBA\u5728\u7EBF\u5192\u9669\u6E38\u620FMMORPG\u6E90\u7801-\u6B7B\u795E2_NPC(g_\u7231\u7ED9\u7F51_aigei_com_7"
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 64
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b134e77b0805560800000000000000
+      internalID: 7300476521553271599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
