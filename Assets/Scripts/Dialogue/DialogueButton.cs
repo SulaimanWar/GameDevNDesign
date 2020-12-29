@@ -10,11 +10,6 @@ public class DialogueButton : MonoBehaviour
     public GameObject passcodeInput;
     GameObject curPasscodeInput;
 
-    private void Start()
-    {
-        Debug.Log(gameObject.name);
-    }
-
     public void Setup(DialogueData dialogueData, int curLine, int curActionData, DialogueObject dialogueObj)
     {
         actionData = dialogueData.dialogueLines[curLine].actionData[curActionData];
