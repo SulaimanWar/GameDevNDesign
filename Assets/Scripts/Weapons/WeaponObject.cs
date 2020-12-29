@@ -25,6 +25,7 @@ public class WeaponObject : MonoBehaviour
     Vector2 rayDir;
 
 
+
     private void Start()
     {
        // playerTransform = transform;
@@ -123,6 +124,15 @@ public class WeaponObject : MonoBehaviour
 
         float angle = Mathf.Atan2(mousePosition.y, mousePosition.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+
+        if(angle > -90f && angle < 90f)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+        else
+        {
+            transform.localScale = new Vector3(1, -1, 1);
+        }
     }
 
     private void MoveReticle()
