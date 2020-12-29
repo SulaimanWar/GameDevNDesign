@@ -25,11 +25,12 @@ public class Projectile : MonoBehaviour
 
 
         RaycastHit2D rayHit = Physics2D.Raycast(transform.position, transform.up);
+        Debug.DrawRay(transform.position, transform.up, Color.red);
         if(rayHit.collider == null)
         {
             return;
         }
-        if ((rayHit.transform.position - transform.position).magnitude < 1f)
+        if ((rayHit.transform.position - transform.position).magnitude < 0.5f)
         {
             switch (rayHit.collider.tag)
             {

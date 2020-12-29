@@ -16,6 +16,8 @@ public class PlayerHealth : MonoBehaviour
 
     private void Start()
     {
+        curShield = maxShield;
+        curHealth = maxHealth;
         UpdateUI();
     }
 

@@ -72,6 +72,9 @@ public class BossAttack : MonoBehaviour
             float angle = Mathf.Atan2(targetY, targetX) * Mathf.Rad2Deg;
             spawnedProjectile.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90f));
             spawnedProjectile.transform.parent = null;
+
+            AIProjectile aiProjectile = spawnedProjectile.GetComponent<AIProjectile>();
+            aiProjectile.Setup();
         }
     }
 
