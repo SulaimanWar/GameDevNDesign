@@ -29,7 +29,7 @@ public class Projectile : MonoBehaviour
         {
             return;
         }
-        if ((rayHit.transform.position - transform.position).magnitude < 3f)
+        if ((rayHit.transform.position - transform.position).magnitude < 1f)
         {
             switch (rayHit.collider.tag)
             {

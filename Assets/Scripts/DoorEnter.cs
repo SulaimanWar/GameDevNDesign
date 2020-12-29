@@ -40,6 +40,12 @@ public class DoorEnter : MonoBehaviour
             playerTransform.position = TargetDoor.position;
             camControl.ChangeRoom(minX, maxX, minY, maxY);
         }
+
+        AIChase[] aiChases = FindObjectsOfType<AIChase>();
+        foreach(AIChase aiChase in aiChases)
+        {
+            aiChase.ChaseEnterDoor();
+        }
     }
     
 

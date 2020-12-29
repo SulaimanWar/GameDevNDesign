@@ -10,10 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 925592967354695593}
   - component: {fileID: 8060455856250654000}
-  - component: {fileID: 8834616631241367853}
+  - component: {fileID: 7495679481019869117}
+  - component: {fileID: 1776449890987253505}
   m_Layer: 0
   m_Name: Projectile_Minotaur
-  m_TagString: Untagged
+  m_TagString: EnemyProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82,7 +83,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8834616631241367853
+--- !u!61 &7495679481019869117
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280408852233158750}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 6.24, y: 5.57}
+    newSize: {x: 2.56, y: 2.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.24, y: 5.57}
+  m_EdgeRadius: 0
+--- !u!114 &1776449890987253505
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,6 +118,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1280408852233158750}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 260f43bee1bde50448552ee159901e5e, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e4bbda5882b52f4b9be764583bd9f60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectileData: {fileID: 11400000, guid: 9d3b4a9b43e528a42bb1470c92429b5e, type: 2}

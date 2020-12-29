@@ -10,9 +10,11 @@ public class AIChase : MonoBehaviour
     AIPatrol aiPatrol;
     AIAttack aiAttack;
     bool inRange;
-    bool moving;
 
     Vector3 oriScale;
+
+    AIDetect aiDetect;
+
 
     private void Start()
     {
@@ -20,6 +22,7 @@ public class AIChase : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player");
         aiPatrol = GetComponent<AIPatrol>();
         aiAttack = GetComponentInChildren<AIAttack>();
+        aiDetect = GetComponentInChildren<AIDetect>();
     }
 
     void Update()
@@ -62,5 +65,13 @@ public class AIChase : MonoBehaviour
     {
         chasing = true;
         aiPatrol.enabled = false;
+    }
+
+    public void ChaseEnterDoor()
+    {
+        chasing = false;
+        aiAttack.attacking = false;
+        aiPatrol.enabled = true;
+        aiDetect.ResetDetect();
     }
 }

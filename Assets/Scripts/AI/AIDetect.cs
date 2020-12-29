@@ -33,7 +33,7 @@ public class AIDetect : MonoBehaviour
             }
             else
             {
-                detectMeter = 0f;
+                detectMeter -= (detectRate / 2) * Time.deltaTime;
             }
 
             detectBar.value = detectMeter / 100f;
@@ -44,5 +44,10 @@ public class AIDetect : MonoBehaviour
     {
         detected = true;
         aiChase.Chase();
+    }
+
+    public void ResetDetect()
+    {
+        detected = false;
     }
 }
