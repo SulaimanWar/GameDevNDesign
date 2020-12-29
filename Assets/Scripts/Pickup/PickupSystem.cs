@@ -52,8 +52,6 @@ public class PickupSystem : MonoBehaviour
             {
                 Pickup pickup = rayHit.collider.GetComponent<Pickup>();
 
-                Debug.DrawLine(transform.position, rayHit.point, Color.green, 2f);
-
                 SetKey(pickup);
                 Destroy(pickup.gameObject);
             }
@@ -88,6 +86,13 @@ public class PickupSystem : MonoBehaviour
 
     void SetKey(Pickup pickup)
     {
+        if(pickup.pickupMessageUI != null)
+        {
+            GameObject pickupGO = Instantiate(pickup.pickupMessageUI);
+            PickupUI pickupUI = pickupGO.GetComponent<PickupUI>();
+            pickupUI.SetText(pickup.pickupMessage);
+        }
+
         switch (pickup.keyType)
         {
             case Pickup.KeyType.FLOAT:

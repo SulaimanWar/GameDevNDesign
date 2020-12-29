@@ -3,6 +3,9 @@
 public class Pickup : MonoBehaviour
 {
 
+    public string pickupMessage;
+    public GameObject pickupMessageUI;
+
     public enum KeyType
     {
         FLOAT, INT, STRING

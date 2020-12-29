@@ -151,6 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 50
+  deathSpawns: []
 --- !u!114 &389397953185812653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -424,7 +425,7 @@ GameObject:
   - component: {fileID: 5968550389810489548}
   - component: {fileID: 3263279821909710914}
   - component: {fileID: 6452472689072357938}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Detect Ring
   m_TagString: EnemyDetect
   m_Icon: {fileID: 0}

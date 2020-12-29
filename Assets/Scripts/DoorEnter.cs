@@ -16,12 +16,14 @@ public class DoorEnter : MonoBehaviour
 
     public string levelToLoad;
     public bool loadLevel;
+    CameraController camControl;
 
-    
+
 
     private void Start()
     {
         playerTransform = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        camControl = FindObjectOfType<CameraController>();
     }
 
     private void Update()
@@ -36,7 +38,7 @@ public class DoorEnter : MonoBehaviour
         if (isDoor && TargetDoor != null)
         {
             playerTransform.position = TargetDoor.position;
-            //CameraController.instance.ChangeRoom(minX, maxX, minY, maxY);
+            camControl.ChangeRoom(minX, maxX, minY, maxY);
         }
     }
     
