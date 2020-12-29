@@ -10,6 +10,12 @@ public class BossMove : MonoBehaviour
     [Space(15)]
 
     public float speed = 5f;
+    Vector3 oriScale;
+
+    private void Start()
+    {
+        oriScale = transform.localScale;
+    }
 
     private void Update()
     {
@@ -17,6 +23,17 @@ public class BossMove : MonoBehaviour
         {
             Vector2 curPoint = new Vector2(movePoint[curIndex].position.x, movePoint[curIndex].position.y);
             Vector2 moveDir = (curPoint - new Vector2(transform.position.x, transform.position.y));
+
+            //FLIP
+            print(moveDir.x);
+            if(moveDir.x < 0f)
+            {
+                transform.localScale = new Vector3(-oriScale.x, oriScale.y, oriScale.z);
+            }
+            else
+            {
+                transform.localScale = new Vector3(oriScale.x, oriScale.y, oriScale.z);
+            }
 
             transform.position += new Vector3(moveDir.x, moveDir.y, 0f) * speed * Time.deltaTime;
 

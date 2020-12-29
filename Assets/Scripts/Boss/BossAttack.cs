@@ -62,10 +62,10 @@ public class BossAttack : MonoBehaviour
         foreach(Transform curSpawnPoint in bulletSpawnPoints)
         {
             Vector2 shootDir = (new Vector2(curSpawnPoint.position.x, curSpawnPoint.position.y) -
-                new Vector2(transform.position.x, transform.position.y)).normalized;
+                new Vector2(spawnGrp.position.x, spawnGrp.position.y)).normalized;
 
-            float targetX = curSpawnPoint.position.x - transform.position.x;
-            float targetY = curSpawnPoint.position.y - transform.position.y;
+            float targetX = curSpawnPoint.position.x - spawnGrp.position.x;
+            float targetY = curSpawnPoint.position.y - spawnGrp.position.y;
 
             GameObject spawnedProjectile = Instantiate(projectile, curSpawnPoint);
             spawnedProjectile.transform.localPosition = Vector3.zero;
