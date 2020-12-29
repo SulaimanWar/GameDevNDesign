@@ -134,7 +134,6 @@ public class WeaponObject : MonoBehaviour
     void Melee()
     {
         RaycastHit2D rayHit = Physics2D.Raycast(transform.position, rayDir * 5f);
-        Debug.DrawRay(transform.position, rayDir * 5f, Color.red, 2f);
         if(rayHit.collider.tag == "Enemy")
         {
             AIHealth aiHealth = rayHit.collider.GetComponent<AIHealth>();
@@ -143,7 +142,6 @@ public class WeaponObject : MonoBehaviour
 
         if (rayHit.collider.tag == "Destructible")
         {
-            Debug.Log(rayHit.collider.gameObject.name);
             Destructible destructible = rayHit.collider.GetComponent<Destructible>();
             destructible.TakeDamage(curWeaponData.damageAmount);
         }
@@ -153,9 +151,11 @@ public class WeaponObject : MonoBehaviour
     {
         GameObject spawnedProjectile = Instantiate(projectileBase, transform);
         spawnedProjectile.transform.localPosition = Vector3.zero;
+        print(rayDir);
         float angle = Mathf.Atan2(mousePosition.y, mousePosition.x) * Mathf.Rad2Deg;
         spawnedProjectile.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90f));
         spawnedProjectile.transform.parent = null;
+        spawnedProjectile.transform.position += new Vector3(rayDir.x, rayDir.y) * curWeaponData.bulletSpawnDist;
         Projectile projectile = spawnedProjectile.GetComponent<Projectile>();
 
         projectile.SetProjectile(curWeaponData);

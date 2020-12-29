@@ -16,4 +16,5 @@ public class WeaponData : ScriptableObject
     public GameObject projectileGO;
     public float projectileLifetime;
     public float projectileSpeed;
+    public float bulletSpawnDist = 0.25f;
 }
