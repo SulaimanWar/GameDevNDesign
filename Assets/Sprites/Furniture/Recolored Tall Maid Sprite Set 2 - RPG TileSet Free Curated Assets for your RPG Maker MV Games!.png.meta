@@ -1,0 +1,2600 @@
+fileFormatVersion: 2
+guid: d3bd13a980f25d84abb4913719e39fbc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6157685528530446677
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_0
+  - first:
+      213: 841501871270439689
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_1
+  - first:
+      213: -7355311991172409258
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_2
+  - first:
+      213: 5200041111732870066
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_3
+  - first:
+      213: -3064253242372121970
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_4
+  - first:
+      213: -6418818374755278484
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_5
+  - first:
+      213: 8429268750763441087
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_6
+  - first:
+      213: 1037763997011814164
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_7
+  - first:
+      213: -9152202358132755186
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_8
+  - first:
+      213: 7135510403365553851
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_9
+  - first:
+      213: -2113802886310634055
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_10
+  - first:
+      213: -3733179455180035890
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_11
+  - first:
+      213: 5668652355856965448
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_12
+  - first:
+      213: -56486078106341728
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_13
+  - first:
+      213: -2217560427985903656
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_14
+  - first:
+      213: -5550596171172936494
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_15
+  - first:
+      213: -2754440956367911372
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_16
+  - first:
+      213: -9083576655463321036
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_17
+  - first:
+      213: 3923734155579199023
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_18
+  - first:
+      213: 1518241829357668817
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_19
+  - first:
+      213: -1717760611282904292
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_20
+  - first:
+      213: -2268456151530707202
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_21
+  - first:
+      213: -6813615179979057694
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_22
+  - first:
+      213: -6538909810208194788
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_23
+  - first:
+      213: 403110417850945958
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_24
+  - first:
+      213: 2237505147640657523
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_25
+  - first:
+      213: 8712259114012862382
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_26
+  - first:
+      213: -339515917675759653
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_27
+  - first:
+      213: 5744668853515242008
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_28
+  - first:
+      213: 178300174103709032
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_29
+  - first:
+      213: -577011198091388341
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_30
+  - first:
+      213: 302399461216572656
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_31
+  - first:
+      213: 904632960186411497
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_32
+  - first:
+      213: 8128775497060482281
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_33
+  - first:
+      213: -1214977646766367026
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_34
+  - first:
+      213: -2729436889126260449
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_35
+  - first:
+      213: 5202686888505828106
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_36
+  - first:
+      213: 3978113699303556066
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_37
+  - first:
+      213: 1709991281064665666
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_38
+  - first:
+      213: 6616473769571535576
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_39
+  - first:
+      213: -5002346515834675998
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_40
+  - first:
+      213: -8100115212365276058
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_41
+  - first:
+      213: -9078239352204999706
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_42
+  - first:
+      213: -6084575902032432998
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_43
+  - first:
+      213: 8768742941792590825
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_44
+  - first:
+      213: -2959287168467736592
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_45
+  - first:
+      213: -7692869427915531115
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_46
+  - first:
+      213: -162330935541545022
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_47
+  - first:
+      213: -3347507702376976178
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_48
+  - first:
+      213: 8649899407284580422
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_49
+  - first:
+      213: 4316908364263481426
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_50
+  - first:
+      213: -4349244708434777303
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_51
+  - first:
+      213: 4486399053076646853
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_52
+  - first:
+      213: -3326516903161438399
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_53
+  - first:
+      213: 3374490110444703059
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_54
+  - first:
+      213: 2572159334586831337
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_55
+  - first:
+      213: 2850955655235116381
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_56
+  - first:
+      213: 8223729535472366029
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_57
+  - first:
+      213: 4313846788348183987
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_58
+  - first:
+      213: 2740097732091538954
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_59
+  - first:
+      213: 3105192742023773356
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_60
+  - first:
+      213: -7872738665518555334
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_61
+  - first:
+      213: -7133788626837661461
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_62
+  - first:
+      213: -5466263401098064418
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_63
+  - first:
+      213: 6896497385995329879
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_64
+  - first:
+      213: -3029597983028240611
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_65
+  - first:
+      213: -4643329406886674245
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_66
+  - first:
+      213: 4301883807920866817
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_67
+  - first:
+      213: -9097321125091183617
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_68
+  - first:
+      213: 6602441560170024168
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_69
+  - first:
+      213: 5163809059668914206
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_70
+  - first:
+      213: -7034315542269596820
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_71
+  - first:
+      213: -3090818679388737368
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_72
+  - first:
+      213: 5437181422613649220
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_73
+  - first:
+      213: -3326354762413198569
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_74
+  - first:
+      213: 5069648037613416887
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_75
+  - first:
+      213: 2229670058643426614
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_76
+  - first:
+      213: -3507994703886612074
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_77
+  - first:
+      213: -5693288459819130934
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_78
+  - first:
+      213: -6778875437067269654
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_79
+  - first:
+      213: -9138936392226820374
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_80
+  - first:
+      213: 2430117394254273990
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_81
+  - first:
+      213: -9210373812265404407
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_82
+  - first:
+      213: 77669079332960201
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_83
+  - first:
+      213: 4057263521958584032
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_84
+  - first:
+      213: -5705796914276483896
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_85
+  - first:
+      213: -7125986841799870477
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_86
+  - first:
+      213: 2096951143030304109
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_87
+  - first:
+      213: -5933901306231708049
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_88
+  - first:
+      213: -5629030878255296265
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_89
+  - first:
+      213: 2276028588615460409
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_90
+  - first:
+      213: 1309139219858084831
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_91
+  - first:
+      213: 5162684694449975259
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_92
+  - first:
+      213: 5573308079640639187
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_93
+  - first:
+      213: 5491009707315264482
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_94
+  - first:
+      213: -5555831357221141983
+    second: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+      your RPG Maker MV Games!_95
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 504
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559ee960d5e747550800000000000000
+      internalID: 6157685528530446677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 505
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ba6e25e7d9dab00800000000000000
+      internalID: 841501871270439689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 504
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6585ff1d6beace990800000000000000
+      internalID: -7355311991172409258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_3
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 504
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbd34217d14a2840800000000000000
+      internalID: 5200041111732870066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 505
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a129249e59975d0800000000000000
+      internalID: -3064253242372121970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_5
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 504
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6126fe42b6cbe6a0800000000000000
+      internalID: -6418818374755278484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_6
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 504
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb3e85c447caf470800000000000000
+      internalID: 8429268750763441087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_7
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 505
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41724926bd0e66e00800000000000000
+      internalID: 1037763997011814164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_8
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 504
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05310b1278dcf080800000000000000
+      internalID: -9152202358132755186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_9
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 504
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb645b308ec660360800000000000000
+      internalID: 7135510403365553851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_10
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 505
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd524c69734aa2e0800000000000000
+      internalID: -2113802886310634055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_11
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 504
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec825339015113cc0800000000000000
+      internalID: -3733179455180035890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 432
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f190aa8491bae40800000000000000
+      internalID: 5668652355856965448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_13
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 432
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae67b31632573ff0800000000000000
+      internalID: -56486078106341728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_14
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 432
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfdfe53a84a931e0800000000000000
+      internalID: -2217560427985903656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_15
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 432
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4089dc03258f2b0800000000000000
+      internalID: -5550596171172936494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_16
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 432
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43647e83b8246c9d0800000000000000
+      internalID: -2754440956367911372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_17
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 432
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432f311a827a0f180800000000000000
+      internalID: -9083576655463321036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_18
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 432
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e8d58fc67e37630800000000000000
+      internalID: 3923734155579199023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_19
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 432
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9c00a56e0e11510800000000000000
+      internalID: 1518241829357668817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_20
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 432
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b135b33d94928e0800000000000000
+      internalID: -1717760611282904292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_21
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 432
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef666732623d480e0800000000000000
+      internalID: -2268456151530707202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_22
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 432
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e59329081d2171a0800000000000000
+      internalID: -6813615179979057694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_23
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 432
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f39381c202145a0800000000000000
+      internalID: -6538909810208194788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_24
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 360
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1d34d0ac2289500800000000000000
+      internalID: 403110417850945958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_25
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 360
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376ba34b3173d0f10800000000000000
+      internalID: 2237505147640657523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_26
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 360
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea765e1318928e870800000000000000
+      internalID: 8712259114012862382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_27
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 360
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7785b521cc94bf0800000000000000
+      internalID: -339515917675759653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_28
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 360
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ac60eb2e929bf40800000000000000
+      internalID: 5744668853515242008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_29
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 360
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86587dc4013797200800000000000000
+      internalID: 178300174103709032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_30
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 360
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a175a5f5b0ef7f0800000000000000
+      internalID: -577011198091388341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_31
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 360
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4551235b6523400800000000000000
+      internalID: 302399461216572656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_32
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 360
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9650462e6ed8c00800000000000000
+      internalID: 904632960186411497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_33
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 360
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec70391f363fc070800000000000000
+      internalID: 8128775497060482281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_34
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 360
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece537a7448832fe0800000000000000
+      internalID: -1214977646766367026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_35
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 360
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1138ca4c971f1ad0800000000000000
+      internalID: -2729436889126260449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_36
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 288
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03e8faf828a33840800000000000000
+      internalID: 5202686888505828106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_37
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 288
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e38a132559153730800000000000000
+      internalID: 3978113699303556066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_38
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 288
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242efdc920c1bb710800000000000000
+      internalID: 1709991281064665666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_39
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 288
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da400d76df62db50800000000000000
+      internalID: 6616473769571535576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_40
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 288
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecd240f858149ab0800000000000000
+      internalID: -5002346515834675998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_41
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 288
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cda3f612c969f80800000000000000
+      internalID: -8100115212365276058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_42
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 288
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e349d1686d930280800000000000000
+      internalID: -9078239352204999706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_43
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 288
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90747e547e3f8ba0800000000000000
+      internalID: -6084575902032432998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_44
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 288
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebd24c2f35d0b970800000000000000
+      internalID: 8768742941792590825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_45
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 288
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7eb1fcfff7ee6d0800000000000000
+      internalID: -2959287168467736592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_46
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 288
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cd1ad83007d3590800000000000000
+      internalID: -7692869427915531115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_47
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 288
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c74dfacfd84fbdf0800000000000000
+      internalID: -162330935541545022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 216
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0bfe40b734b81d0800000000000000
+      internalID: -3347507702376976178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_49
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 217
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6403f0a8ead9a0870800000000000000
+      internalID: 8649899407284580422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_50
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 216
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25066db094db8eb30800000000000000
+      internalID: 4316908364263481426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_51
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 216
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b6f702bf064a3c0800000000000000
+      internalID: -4349244708434777303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_52
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 217
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb48473b24e24e30800000000000000
+      internalID: 4486399053076646853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_53
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 216
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fdabf4086d5d1d0800000000000000
+      internalID: -3326516903161438399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_54
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 216
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d002b60e894de20800000000000000
+      internalID: 3374490110444703059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_55
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 217
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1d0c3794522b320800000000000000
+      internalID: 2572159334586831337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_56
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 216
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d1eac3011a09720800000000000000
+      internalID: 2850955655235116381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_57
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 216
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1f7baf07e802270800000000000000
+      internalID: 8223729535472366029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_58
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 217
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b504fa5cccdddb30800000000000000
+      internalID: 4313846788348183987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_59
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 216
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e6b23ae58c60620800000000000000
+      internalID: 2740097732091538954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_60
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 144
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacb27bc85cd71b20800000000000000
+      internalID: 3105192742023773356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_61
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 144
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f984035e96eb290800000000000000
+      internalID: -7872738665518555334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_62
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 144
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be89e925a01bffc90800000000000000
+      internalID: -7133788626837661461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_63
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 144
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddc4d0f56ee324b0800000000000000
+      internalID: -5466263401098064418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_64
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 144
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75169a655d745bf50800000000000000
+      internalID: 6896497385995329879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_65
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 144
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f9c599fa4b4f5d0800000000000000
+      internalID: -3029597983028240611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_66
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 144
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0056f71849f8fb0800000000000000
+      internalID: -4643329406886674245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_67
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 144
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106c02ce78c53bb30800000000000000
+      internalID: 4301883807920866817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_68
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 144
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3784be2a2dfb180800000000000000
+      internalID: -9097321125091183617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_69
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 144
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ecc5342e9590ab50800000000000000
+      internalID: 6602441560170024168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_70
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 144
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1072811bf889a740800000000000000
+      internalID: 5163809059668914206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_71
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 144
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6be201a847116e90800000000000000
+      internalID: -7034315542269596820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_72
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 72
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a074e579c43b15d0800000000000000
+      internalID: -3090818679388737368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_73
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 72
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4475d3a42bfb47b40800000000000000
+      internalID: 5437181422613649220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_74
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 72
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713be65a7f966d1d0800000000000000
+      internalID: -3326354762413198569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_75
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 72
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b13432b7020b5640800000000000000
+      internalID: 5069648037613416887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_76
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 72
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d04c3ea1161fe10800000000000000
+      internalID: 2229670058643426614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_77
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 72
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69903e82769115fc0800000000000000
+      internalID: -3507994703886612074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_78
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 72
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf56a46f406df0b0800000000000000
+      internalID: -5693288459819130934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_79
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 72
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae90cfcb4b89ce1a0800000000000000
+      internalID: -6778875437067269654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_80
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 72
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee2e6c75c9fb2180800000000000000
+      internalID: -9138936392226820374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_81
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 72
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd160f05e289b120800000000000000
+      internalID: 2430117394254273990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_82
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 72
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9083c5ff0dd2e2080800000000000000
+      internalID: -9210373812265404407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_83
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 72
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c73cabbd9fe31100800000000000000
+      internalID: 77669079332960201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_84
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eedd7a4dab4e4830800000000000000
+      internalID: 4057263521958584032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_85
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccb704efefe0d0b0800000000000000
+      internalID: -5705796914276483896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_86
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f73964f8b86b1d90800000000000000
+      internalID: -7125986841799870477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_87
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6daba754fdd91d10800000000000000
+      internalID: 2096951143030304109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_88
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6625dd733c86ada0800000000000000
+      internalID: -5933901306231708049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_89
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 0
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f053e77d3aa1e1b0800000000000000
+      internalID: -5629030878255296265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_90
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 0
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936ee0341f3169f10800000000000000
+      internalID: 2276028588615460409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_91
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 0
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd35c213f2ffa2210800000000000000
+      internalID: 1309139219858084831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_92
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 0
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf6904606a85a740800000000000000
+      internalID: 5162684694449975259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_93
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 0
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d67bc67b2e585d40800000000000000
+      internalID: 5573308079640639187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_94
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 0
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb7fb67c3cf33c40800000000000000
+      internalID: 5491009707315264482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Recolored Tall Maid Sprite Set 2 - RPG TileSet Free Curated Assets for
+        your RPG Maker MV Games!_95
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 0
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1228bd011d8b5e2b0800000000000000
+      internalID: -5555831357221141983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
