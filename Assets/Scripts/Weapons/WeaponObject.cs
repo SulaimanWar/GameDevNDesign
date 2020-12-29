@@ -133,17 +133,19 @@ public class WeaponObject : MonoBehaviour
 
     void Melee()
     {
-        RaycastHit2D rayHit = Physics2D.Raycast(transform.position, rayDir * 2f);
-
-        if(rayHit.collider == null)
-        {
-            return;
-        }
-
+        RaycastHit2D rayHit = Physics2D.Raycast(transform.position, rayDir * 5f);
+        Debug.DrawRay(transform.position, rayDir * 5f, Color.red, 2f);
         if(rayHit.collider.tag == "Enemy")
         {
             AIHealth aiHealth = rayHit.collider.GetComponent<AIHealth>();
             aiHealth.Damage(curWeaponData.damageAmount);
+        }
+
+        if (rayHit.collider.tag == "Destructible")
+        {
+            Debug.Log(rayHit.collider.gameObject.name);
+            Destructible destructible = rayHit.collider.GetComponent<Destructible>();
+            destructible.TakeDamage(curWeaponData.damageAmount);
         }
     }
 

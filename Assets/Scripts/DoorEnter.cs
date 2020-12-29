@@ -36,7 +36,7 @@ public class DoorEnter : MonoBehaviour
         if (isDoor && TargetDoor != null)
         {
             playerTransform.position = TargetDoor.position;
-            CameraController.instance.ChangeRoom(minX, maxX, minY, maxY);
+            //CameraController.instance.ChangeRoom(minX, maxX, minY, maxY);
         }
     }
     
