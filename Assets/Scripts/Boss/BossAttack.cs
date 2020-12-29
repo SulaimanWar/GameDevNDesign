@@ -25,6 +25,8 @@ public class BossAttack : MonoBehaviour
     public GameObject activeTargetGO;
     public GameObject[] deathSpawns;
 
+    public float dist;
+
     private void Start()
     {
         playerGO = GameObject.FindGameObjectWithTag("Player");
@@ -47,6 +49,7 @@ public class BossAttack : MonoBehaviour
         }
 
         float distToPlayer = (playerGO.transform.position - transform.position).magnitude;
+        dist = distToPlayer;
         if(distToPlayer < attackRange)
         {
             shooting = true;
