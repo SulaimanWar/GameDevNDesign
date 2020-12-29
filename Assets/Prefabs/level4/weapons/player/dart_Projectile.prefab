@@ -10,10 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6756198583779778027}
   - component: {fileID: 4348998939376310238}
-  - component: {fileID: 4837195793828508584}
-  - component: {fileID: 5181321146657791553}
   - component: {fileID: 8660122273715204190}
-  m_Layer: 13
+  m_Layer: 0
   m_Name: dart_Projectile
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -70,8 +68,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -383227795
-  m_SortingLayer: 0
+  m_SortingLayerID: -1661572725
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: -617737992215930114, guid: dd5647e904b54944daae1e76b0ada510,
     type: 3}
@@ -85,53 +83,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &4837195793828508584
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2071296399544000343}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!61 &5181321146657791553
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2071296399544000343}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.58, y: 0.42}
-    newSize: {x: 0.37142858, y: 0.15714286}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.37142858, y: 0.15714286}
-  m_EdgeRadius: 0
 --- !u!114 &8660122273715204190
 MonoBehaviour:
   m_ObjectHideFlags: 0

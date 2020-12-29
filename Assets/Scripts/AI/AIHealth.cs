@@ -3,7 +3,7 @@
 public class AIHealth : MonoBehaviour
 {
     public int maxHealth = 50;
-    int curHealth;
+    public int curHealth;
     public GameObject[] deathSpawns;
 
     private void Start()
@@ -17,6 +17,7 @@ public class AIHealth : MonoBehaviour
 
         if(curHealth < 1)
         {
+            print("DEATH");
             if(GetComponent<BossAttack>() != null)
             {
                 GetComponent<BossAttack>().Die();

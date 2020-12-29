@@ -101,5 +101,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a68ee32489d980f43afe0797637acc23, type: 2}
   - {fileID: 11400000, guid: 5991ae351202c6e47843051a0e7678cd, type: 2}
   - {fileID: 11400000, guid: 96ca70375e5a8184f927be918d3d2e1c, type: 2}
+  - {fileID: 11400000, guid: b3b34ad34791058469edb27c91b8352c, type: 2}
   reticlePrefab: {fileID: 6128543464222406324, guid: aaee138644d69a24abf06a3e46ea0eb6,
     type: 3}
