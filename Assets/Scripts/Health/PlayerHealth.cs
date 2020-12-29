@@ -54,14 +54,6 @@ public class PlayerHealth : MonoBehaviour
     //Maybe by drinking potion or getting attacked
     public void ModifyShield(int modifyAmount)
     {
-        //If damage received is more than the shield amount, transfer that damage into health
-        if(curShield < 0)
-        {
-            if(modifyAmount < 1)
-            {
-                ModifyHealth(modifyAmount);
-            }
-        }
 
         curShield += modifyAmount;
 
@@ -69,6 +61,9 @@ public class PlayerHealth : MonoBehaviour
         if (curShield <= 0f)
         {
             curShield = 0;
+
+            //If damage received is more than the shield amount, transfer that damage into health
+            ModifyHealth(modifyAmount);
         }
 
         if (curShield > maxShield)
