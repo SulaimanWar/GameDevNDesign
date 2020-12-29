@@ -10,10 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6150638531274956945}
   - component: {fileID: 253324360726076375}
-  - component: {fileID: 7137823147968841448}
   - component: {fileID: 1426208529343742681}
   - component: {fileID: 9144149730213823033}
-  - component: {fileID: 1549480549617065381}
+  - component: {fileID: 1375103181208662083}
   m_Layer: 9
   m_Name: redJar1_Component
   m_TagString: Untagged
@@ -71,8 +70,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -75549135
-  m_SortingLayer: 2
+  m_SortingLayerID: -777629215
+  m_SortingLayer: -6
   m_SortingOrder: 0
   m_Sprite: {fileID: 7277684666704881511, guid: 088df37d83ba54c42a5f5ebf5544c271,
     type: 3}
@@ -86,23 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7137823147968841448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8938909599234896024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d8088e96eea75549a3bb62035ba793d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  initialHealth: 3
-  maxHealth: 3
-  initialShield: 0
-  maxShield: 0
-  destroyObject: 0
 --- !u!61 &1426208529343742681
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -150,7 +132,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1549480549617065381
+--- !u!114 &1375103181208662083
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -159,10 +141,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8938909599234896024}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e221c938b1817bd4484bb7bd5d18f0aa, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f05f44b7f63f6741bbfc6ededc4b709, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damagedSprite: {fileID: -4820310656810016041, guid: 088df37d83ba54c42a5f5ebf5544c271,
+  spawnableObject: {fileID: 6484100959757988440, guid: c97c70bbd59b6794e9e85d9694f5fd45,
     type: 3}
-  damage: 1
-  isDamageable: 1
+  debrisPrefab: {fileID: 5554246015688099084, guid: 74b02d6a40c3b03489ef29a27d97ca97,
+    type: 3}
+  health: 50

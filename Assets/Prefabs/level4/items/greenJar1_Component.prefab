@@ -10,12 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 9198418881789178524}
   - component: {fileID: 2990338738329258458}
-  - component: {fileID: 5328471122189817061}
   - component: {fileID: 4122699168950636756}
   - component: {fileID: 6060340621264179252}
-  - component: {fileID: 4574795536959147944}
+  - component: {fileID: 8653572781821354005}
   m_Layer: 9
-  m_Name: greenBox_Component
+  m_Name: greenJar1_Component
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71,8 +70,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -75549135
-  m_SortingLayer: 2
+  m_SortingLayerID: -777629215
+  m_SortingLayer: -6
   m_SortingOrder: 0
   m_Sprite: {fileID: -6818975297270835130, guid: 088df37d83ba54c42a5f5ebf5544c271,
     type: 3}
@@ -86,23 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5328471122189817061
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6264875415040090773}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d8088e96eea75549a3bb62035ba793d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  initialHealth: 3
-  maxHealth: 3
-  initialShield: 0
-  maxShield: 0
-  destroyObject: 0
 --- !u!61 &4122699168950636756
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -150,7 +132,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &4574795536959147944
+--- !u!114 &8653572781821354005
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -159,10 +141,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 6264875415040090773}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e221c938b1817bd4484bb7bd5d18f0aa, type: 3}
+  m_Script: {fileID: 11500000, guid: 0f05f44b7f63f6741bbfc6ededc4b709, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damagedSprite: {fileID: 4740802034022322910, guid: 088df37d83ba54c42a5f5ebf5544c271,
+  spawnableObject: {fileID: 7098099020416987142, guid: 605f818cfb611684d914d210ed8b73a1,
     type: 3}
-  damage: 1
-  isDamageable: 1
+  debrisPrefab: {fileID: 1803136248502234770, guid: eec30568bc7409e458ef18bf44ccf842,
+    type: 3}
+  health: 50
