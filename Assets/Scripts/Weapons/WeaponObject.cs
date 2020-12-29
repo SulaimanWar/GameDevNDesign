@@ -161,7 +161,6 @@ public class WeaponObject : MonoBehaviour
     {
         GameObject spawnedProjectile = Instantiate(projectileBase, transform);
         spawnedProjectile.transform.localPosition = Vector3.zero;
-        print(rayDir);
         float angle = Mathf.Atan2(mousePosition.y, mousePosition.x) * Mathf.Rad2Deg;
         spawnedProjectile.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90f));
         spawnedProjectile.transform.parent = null;
